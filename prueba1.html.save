@@ -1,0 +1,33 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<!-- Esta es la cabecera -->
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title> Merchandising friki </title>
+<link rel="stylesheet" href="style.css">
+</head>
+ 
+<body>
+	
+	<header id="main-header">
+		
+	        <a id="logo-header" href="#">
+			<span class="site-name">SitioFriki</span>
+			<span class="site-desc">Merchandising Friki</span>
+		</a> <!-- / #logo-header -->
+ 
+		<nav>
+			<ul>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Categorías</a></li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+		</nav><!-- / nav -->
+ 
+	</header><!-- / #main-header -->
+
+	<div align="center"><img src="fotoinicio.jpg" width="1250" height="250" style="margin:100px 0px" ></div>
+
+	
+</body>
