@@ -103,44 +103,7 @@ nav ul li a {
 	margin-left: 800px;
  	
 }
-/*
-.im2 {
-
-	margin-left: 800px;
-
-}*/
-	
-/*
-nav ul img1 {
-	
-	margin-left: 300px;
-        padding: 100;
-        list-style: none;
-        padding-right: 1px;
-	padding-bottom: 100px;
-        background-image: url("carrito.png");
-	background-size: cover;
-	background-repeat: no-repeat;
-        background-position: top,right;
-
-
-}	
-
-nav ul img2 {
-	
-	margin-left: 500px;
-        padding: 50;
-        list-style: none;
-        padding-right: 70px;
-	padding-bottom: 50px;
-        background-image: url("usuario.png");  
-        background-size: cover;
-        background-repeat: no-repeat;
-	background-position: top,right;
-	
-	
-}
-*/		
+		
 nav ul li a:hover {
 	background: #0b76a6;
 }
