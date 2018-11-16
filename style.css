@@ -143,22 +143,34 @@ nav ul li a:hover {
 
 .imagenbuscar {
 	
- 	margin-bottom: -8px;
-	margin-left: -105px;
+ 	/*margin-bottom: -8px;
+	margin-left: -105px;*/
+	position:absolute;
+	margin:auto;
+	bottom: 36px;
+	right: 320px;
+
 
 }
 
 .imagenborde {
 	
 	background: white;
-	
-}
+        margin:auto;
+	position:absolute;
+	bottom: 13px;
+	left: 300px;	
+}	
 
 .searcher {
 
-	margin-top:300px;
+	position:absolute;
+	margin:auto;
+	bottom:24px;
+	right:298px;
+	/*margin-top:300px;
 	margin-right: 50px;
-	padding-right: 100px;
+	padding-right: 100px;*/
 		
 }
 .search-container {
