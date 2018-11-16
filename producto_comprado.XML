@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<carrito>
+  <titulo>TU CARRITO</titulo>
+  <comprado ID="">
+    <nombre></nombre>
+    <descripcion></descripcion>
+    <talla></talla>
+    <precio></precio>
+    <cantidad></cantidad>
+    <subtotal></subtotal>
+    <impuestos></impuestos> <!--IVA, IGIC, etc.-->
+    <descuento></descuento> <!--para indicar descuento en el producto-->
+    <foto></foto>
+  </comprado>
+
+  <info_carro>
+    <total></total> <!--Total de la compra-->
+    <tipo_envio></tipo_envio> <!--par indicar si es envío gratuito o no-->
+    <discount_code></discount_code> <!--código de descuento en la compra-->
+  </info_carro>
+
+</carrito>

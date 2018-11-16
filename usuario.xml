@@ -2,7 +2,54 @@
 
 <usuarios>
   <usuario ID="1">
+    <nombre>Sonia</nombre>
+    <apellidos>Díaz_Santos</apellidos>
+    <DNI>89562546Z</DNI>
+    <CP>35008</CP> <!-- código postal-->
+    <direccion>C_Castillo_4_derecha</direccion>
+    <email>soniads@gmail.com</email>
+    <numtarjeta>7560_2314_5567_9845</numtarjeta>
+    <securecode>556</securecode>
+    <tlf>656328189</tlf>
+    <foto>kh.jpg</foto>
+  </usuario>
+
+  <usuario ID="2">
+    <nombre>Jorge</nombre>
+    <apellidos>González_Cabrera</apellidos>
+    <DNI>79095648J</DNI>
+    <CP>38002</CP> <!-- código postal-->
+    <direccion>Avenida_Trinidad_9</direccion>
+    <email>jcabrera@gmail.com</email>
+    <numtarjeta>7845_8597_5621_3256</numtarjeta>
+    <securecode>678</securecode>
+    <tlf>669852344</tlf>
+    <foto>kh.jpg</foto>
+</usuario>
+
+  <usuario ID="3">
+    <nombre>Basilio</nombre>
+    <apellidos>Gómez_Navarro</apellidos>
+    <DNI>79056492K</DNI>
+    <CP>38007</CP> <!-- código postal-->
+    <direccion>C_Ramón_y_Cajal_10_izquierda</direccion>
+    <email>basiliogn@gmail.com</email>
+    <numtarjeta>4561_5559_7563_1235</numtarjeta>
+    <securecode>778</securecode>
+    <tlf>69855234</tlf>
+    <foto>kh.jpg</foto>
+  </usuario>
+
+  <usuario ID="4">
     <nombre>Juan</nombre>
-    <apellidos></apellidos>
-    <DNI></DNI>
-    <CP></CP> <!-- código postal-->
+    <apellidos>Díaz_Fernández</apellidos>
+    <DNI>45950463X</DNI>
+    <CP>35006</CP> <!-- código postal-->
+    <direccion>Calle_de_Los_Sueños_3</direccion>
+    <email>jdfernandez@gmail.com</email>
+    <numtarjeta>1234_5678_9101_1121</numtarjeta>
+    <securecode>233</securecode>
+    <tlf>698523175</tlf>
+    <foto>kh.jpg</foto>
+  </usuario>
+</usuarios>
