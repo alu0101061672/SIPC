@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<categoria>
+  <juegos>
+    <ps4>
+      <titulo>PS4</titulo>
+      <!--Ponemos juegos directamente o alguna subcategoría más-->
+    </ps4>
+    <xbox_one>
+      <titulo>XBOX_ONE</titulo>
+    </xbox_one>
+    <pc>
+      <titulo>PC</titulo>
+    </pc>
+    <otras>
+      <titulo>OTRAS_CONSOLAS</titulo>
+        <ps3>PS3</ps3>
+        <xbox360>XBOX_360</xbox360>
+        <wiiu>WiiU</wiiu>
+        <nintendo>Nintendo_Switch</nintendo>
+    </otras>
+  </juegos>
+
+  <ropa>
+    <adulto>
+      <titulo>MAESTRO</titulo>
+        <camisetas>CAMISETAS</camisetas>
+        <sudaderas>SUDADERAS</sudaderas>
+        <zapatillas>ZAPATILLAS</zapatillas>
+        <interior>ROPA_INTERIOR</interior>
+    </adulto>
+
+    <niños>
+      <titulo>PADAWAN</titulo>
+        <camisetas>CAMISETAS</camisetas>
+        <sudaderas>SUDADERAS</sudaderas>
+        <zapatillas>ZAPATILLAS</zapatillas>
+    </niños>
+  </ropa>
+
+  <merchandising>
+    <titulo>MERCHANDISING</titulo>
+      <figuras>FIGURAS_ACCION</figuras>
+      <posters>POSTERS</posters>
+      <estatuas>ESTATUAS</estatuas>
+      <chapas>CHAPAS_Y_PINES</chapas>
+      <coleccion>SOLO_PARA_COLECCIONISTAS</coleccion>
+      <accesorios>ACCESIRIOS</accesorios>
+  </merchandising>
+
+  <pelis>
+    <titulo>PELÍCULAS</titulo>
+      <dvd>DVD</dvd>
+      <bray>BLUE_RAY</bray>
+      <limitada>EDICIONES_LIMITADAS</limitada>
+  </pelis>
+
+  <juguetes>
+    <titulo>JUGUETES</titulo>
+      <lego>LEGO</lego>
+      <hasbro>HASBRO</hasbro>
+      <playmobil>PLAYMOBIL</playmobil>
+  </juguetes>
+
+</categoria>
