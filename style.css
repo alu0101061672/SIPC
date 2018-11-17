@@ -108,15 +108,14 @@ nav ul li a {
 				
 }
 
-.im1 {
 
-	margin-left: 800px;
- 	
-}
-		
 nav ul li a:hover {
 
 	background: #0b76a6;
+}
+
+.bloque {
+	margin-left: 800px;
 }
 
 #main-content {
