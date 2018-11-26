@@ -14,7 +14,7 @@
     <precio>21,99€</precio>
     <oferta>Sí</oferta> <!--para indicar si el producto está de oferta-->
     <ahorro>13,00€</ahorro>
-    <foto></foto>
+    <foto>Fotos_productos/SudaderaHarryPotter/frontal</foto>
   </producto>
 
   <producto ID="2">
