@@ -14,7 +14,7 @@
     <precio>21,99€</precio>
     <oferta>Sí</oferta> <!--para indicar si el producto está de oferta-->
     <ahorro>13,00€</ahorro>
-    <foto>Fotos_productos/SudaderaHarryPotter/frontal</foto>
+    <foto>images/Fotos_productos/SudaderaHarryPotter/frontal.jpg</foto>
   </producto>
 
   <producto ID="2">
@@ -24,7 +24,7 @@
     <precio>11,99€</precio>
     <oferta>Sí</oferta>
     <ahorro>6,00€</ahorro>
-    <foto>Fotos_productos/CamisetaMujerStarWars/frontal</foto>
+    <foto>images/Fotos_productos/CamisetaMujerStarWars/frontal.jpg</foto>
   </producto>
 
   <producto ID="3">
@@ -34,7 +34,7 @@
     <precio>11,49€</precio>
     <oferta>Sí</oferta>
     <ahorro>9,50€</ahorro>
-    <foto>Fotos_productos/CamisetaHombreGuardianesGalaxia/Frontal</foto>
+    <foto>images/Fotos_productos/CamisetaHombreGuardianesGalaxia/Frontal.jpg</foto>
   </producto>
 
   <producto ID="4">
@@ -44,6 +44,6 @@
     <precio>17,99€</precio>
     <oferta>No</oferta>
     <ahorro></ahorro>
-    <foto>Fotos_productos/CamisetaMario/frontal</foto>
+    <foto>images/Fotos_productos/CamisetaMario/frontal.jpg</foto>
   </producto>
 </productos>

@@ -10,7 +10,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <body>
         <xsl:for-each select="productos/producto">
             <div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
-                <div class=shadow-car "block2">
+                <div class="shadow-car block2">
                     <div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
                         <img src="{foto}" alt="IMG-PRODUCT"></img>
                         <div class="block2-overlay trans-0-4">
@@ -21,13 +21,12 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                             </div>
                         </div>
                     </div>
-                    <div class="block2-txt p-t-20 p-l-15 p-b-10">
-                        <a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5"><xsl:value-of select="nombre"/></a>
-                        <span class="block2-price m-text6 p-r-5"><xsl:value-of select="precio"/>&euro;</span>
+                    <div class="p-t-20 p-l-15 p-b-10">
+                        <a href="product-detail.html" class="text-overflow dis-block s-text3 p-b-5"><xsl:value-of select="nombre"/></a>
+                        <span class="block2-price m-text6 p-r-5"><xsl:value-of select="precio"/></span>
                     </div>
                 </div>
             </div>
-
         </xsl:for-each>
     </body>
 </html>
