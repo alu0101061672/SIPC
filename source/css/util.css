@@ -2354,6 +2354,8 @@
 /*[ Wrap Picture ]
 -----------------------------------------------------------
 */
+.item-slick3 .measures img {max-height: 500px; max-width: 100%;}
+/* ------------------------------------ */
 .wrap-pic-w img {width: 100%;}
 .wrap-pic-max-w img {max-width: 100%;}
 
