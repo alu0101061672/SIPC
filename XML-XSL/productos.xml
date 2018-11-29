@@ -2,40 +2,48 @@
 
 <!--Falta decidir los productos y rellenar la info de las etiquetas.-->
 <productos>
-  <producto ID="">
-    <nombre>Camisa</nombre>
-    <descripcion></descripcion>
-    <talla></talla> <!--Si es ropa, se incluye la talla-->
-    <precio>56.6</precio>
-    <oferta></oferta> <!--para indicar si el producto está de oferta-->
-    <foto>../Proyecto_anterior/kh.jpg</foto>
+  <producto ID="1">
+    <nombre>Sudadera_Harry_Potter_Escudo_Hogwarts-Hombre-Negro</nombre>
+    <descripcion>El_joven_mago_de_la_cicatriz_con_forma_de_rayo_ha_logrado_hechizar_a_millones_de_fans_en_todo_el_mundo...
+      ¡y_a_FrikiYa!_también!_Rinde_homenaje_al_mágico_mundo_de_Harry_Potter_con_esta_extraordinaria_colección_de_camisetas_y_
+      sudaderas_inspiradas_en_la_saga_de_J._K._Rowling.
+      Sudadera_confeccionada_en_un_suave_tejido_de_algodón._
+      Imagen_impresa_en_la_parte_frontal,_capucha_con_cordón_ajustable,_
+      bolsillo_frontal_tipo_canguro_y_ribetes_de_canalé.</descripcion>
+    <talla>L</talla> <!--Si es ropa, se incluye la talla-->
+    <precio>21,99€</precio>
+    <oferta>Sí</oferta> <!--para indicar si el producto está de oferta-->
+    <ahorro>13,00€</ahorro>
+    <foto>Fotos_productos/SudaderaHarryPotter/frontal</foto>
   </producto>
 
-  <producto ID="">
-    <nombre>Figuritas</nombre>
-    <descripcion></descripcion>
-    <talla></talla> <!--Si es ropa, se incluye la talla-->
-    <precio>56.6</precio>
-    <oferta></oferta> <!--para indicar si el producto está de oferta-->
-    <foto>../Proyecto_anterior/kh.jpg</foto>
+  <producto ID="2">
+    <nombre>Camiseta_Star_Wars_Stormtrooper_Pintura-Mujer-Negro</nombre>
+    <descripcion>Camiseta_confeccionada_en_un_suave_tejido_de_algodón,_imagen_impresa_en_la_parte_frontal,_cuello_redondo_y_mangas_cortas.</descripcion>
+    <talla>M</talla>
+    <precio>11,99€</precio>
+    <oferta>Sí</oferta>
+    <ahorro>6,00€</ahorro>
+    <foto>Fotos_productos/CamisetaMujerStarWars/frontal</foto>
   </producto>
 
-    <producto ID="">
-    <nombre>Camisa</nombre>
-    <descripcion></descripcion>
-    <talla></talla> <!--Si es ropa, se incluye la talla-->
-    <precio>56.6</precio>
-    <oferta></oferta> <!--para indicar si el producto está de oferta-->
-    <foto>../Proyecto_anterior/kh.jpg</foto>
+  <producto ID="3">
+    <nombre>Camiseta_Marvel_Guardianes_de_la_Galaxia_Vol._2_Logo-Hombre-Gris</nombre>
+    <descripcion>Confeccionada_en_puro_algodón._Imagen_impresa_en_la_parte_frontal,_cuello_redondo_y_mangas_cortas.</descripcion>
+    <talla>S</talla>
+    <precio>11,49€</precio>
+    <oferta>Sí</oferta>
+    <ahorro>9,50€</ahorro>
+    <foto>Fotos_productos/CamisetaHombreGuardianesGalaxia/Frontal</foto>
   </producto>
 
-    <producto ID="">
-    <nombre>Camisa</nombre>
-    <descripcion></descripcion>
-    <talla></talla> <!--Si es ropa, se incluye la talla-->
-    <precio>56.6</precio>
-    <oferta></oferta> <!--para indicar si el producto está de oferta-->
-    <foto>../Proyecto_anterior/kh.jpg</foto>
+  <producto ID="4">
+    <nombre>Nintendo_Mario_Items_Logo_Kids'_T-Shirt-Red</nombre>
+    <descripcion>Camiseta_100%_algodón._Varias_tallas_disponibles.</descripcion>
+    <talla>XXL</talla>
+    <precio>17,99€</precio>
+    <oferta>No</oferta>
+    <ahorro></ahorro>
+    <foto>Fotos_productos/CamisetaMario/frontal</foto>
   </producto>
-
 </productos>
