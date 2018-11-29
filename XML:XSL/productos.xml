@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--Falta decidir los productos y rellenar la info de las etiquetas.-->
+<productos>
+  <producto ID="">
+    <nombre>Camisa</nombre>
+    <descripcion></descripcion>
+    <talla></talla> <!--Si es ropa, se incluye la talla-->
+    <precio>56.6</precio>
+    <oferta></oferta> <!--para indicar si el producto está de oferta-->
+    <foto>SIPC/kh.jpg</foto>
+  </producto>
+
+  <producto ID="">
+    <nombre>Figuritas</nombre>
+    <descripcion></descripcion>
+    <talla></talla> <!--Si es ropa, se incluye la talla-->
+    <precio>56.6</precio>
+    <oferta></oferta> <!--para indicar si el producto está de oferta-->
+    <foto>SIPC/kh.jpg</foto>
+  </producto>
+
+    <producto ID="">
+    <nombre>Camisa</nombre>
+    <descripcion></descripcion>
+    <talla></talla> <!--Si es ropa, se incluye la talla-->
+    <precio>56.6</precio>
+    <oferta></oferta> <!--para indicar si el producto está de oferta-->
+    <foto>SIPC/carrito.png</foto>
+  </producto>
+
+    <producto ID="">
+    <nombre>Camisa</nombre>
+    <descripcion></descripcion>
+    <talla></talla> <!--Si es ropa, se incluye la talla-->
+    <precio>56.6</precio>
+    <oferta></oferta> <!--para indicar si el producto está de oferta-->
+    <foto>SIPC/carrito.png</foto>
+  </producto>
+
+</productos>
