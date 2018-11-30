@@ -115,9 +115,20 @@
 
 				<!-- Header Icon -->
 				<div class="header-icons">
-					<a href="#" class="header-wrapicon1 dis-block">
-						<img src="images/icons/icon-header-01.png" class="header-icon1" alt="ICON">
-					</a>
+					<div class="header-wrapicon2">
+						<img src="images/icons/icon-header-01.png" class="header-icon1 js-show-header-dropdown" alt="ICON">
+
+						<!-- Header cart noti -->
+						<div class="header-cart header-dropdown">
+								<div class="search-product pos-relative bo4 of-hidden">
+									<input id="email" class="s-text7 size6 p-l-23 p-r-50" type="text" name="search-product" placeholder="Username">
+								</div>
+								<div class="search-product pos-relative bo4 of-hidden">
+									<input id="password" class="s-text7 size6 p-l-23 p-r-50" type="text" name="search-product" placeholder="Password">
+								</div>
+								<button id="quickstart-sign-up" type="button" class="btn btn-outline-success">Success</button>
+						</div>
+					</div>
 
 					<span class="linedivide1"></span>
 
@@ -997,7 +1008,85 @@
 	<div id="dropDownSelect1"></div>
 
 
-
+<!--===============================================================================================-->
+	<script src="https://www.gstatic.com/firebasejs/5.6.0/firebase.js"></script>
+	<script>
+	  // Initialize Firebase
+	  var config = {
+		apiKey: "AIzaSyCUYPyKMWSCx6vOSxTj2ua0nyeW-35nHRA",
+		authDomain: "frikiya-66687.firebaseapp.com",
+		databaseURL: "https://frikiya-66687.firebaseio.com",
+		projectId: "frikiya-66687",
+		storageBucket: "frikiya-66687.appspot.com",
+		messagingSenderId: "116404059954"
+	  };
+	  firebase.initializeApp(config);
+	</script>
+<!-- Aquí se maneja el registro y el inicio de sesión pero aún es provisional.
+	<script type="text/javascript">
+		function handleSignUp() {
+			var email = document.getElementById('email').value;
+			var password = document.getElementById('password').value;
+			if (email.length < 4) {
+				alert('Please enter an email address.');
+				return;
+			}
+			if (password.length < 4) {
+				alert('Please enter a password.');
+				return;
+			}
+			// Sign in with email and pass.
+			// [START createwithemail]
+			firebase.auth().createUserWithEmailAndPassword(email, password).catch(function (error) {
+				// Handle Errors here.
+				var errorCode = error.code;
+				var errorMessage = error.message;
+				// [START_EXCLUDE]
+				if (errorCode == 'auth/weak-password') {
+					alert('The password is too weak.');
+				} else {
+					alert(errorMessage);
+				}
+				console.log(error);
+				// [END_EXCLUDE]
+			});
+			// [END createwithemail]
+		}
+		document.getElementById('quickstart-sign-up').addEventListener('click', handleSignUp, false);
+	</script>
+	<script type="text/javascript">
+		function handleLogUp() {
+			var email = document.getElementById('email').value;
+			var password = document.getElementById('password').value;
+			if (email.length < 4) {
+				alert('Please enter an email address.');
+				return;
+			}
+			if (password.length < 4) {
+				alert('Please enter a password.');
+				return;
+			}
+			// Sign in with email and pass.
+			// [START createwithemail]
+			firebase.auth().signInWithEmailAndPassword(email, password).catch(function (error) {
+				// Handle Errors here.
+				var errorCode = error.code;
+				var errorMessage = error.message;
+				// [START_EXCLUDE]
+				if (errorCode === 'auth/wrong-password') {
+					alert('Wrong password.');
+				} else {
+					alert(errorMessage);
+				}
+				console.log(error);
+				document.getElementById('quickstart-sign-in').disabled = false;
+				// [END_EXCLUDE]
+			});
+			// [END createwithemail]
+		}
+		document.getElementById('quickstart-sign-up').addEventListener('click', handleLogUp, false);
+	</script>
+-->
 <!--===============================================================================================-->
 	<script type="text/javascript" src="vendor/jquery/jquery-3.2.1.min.js"></script>
 <!--===============================================================================================-->
