@@ -85,7 +85,7 @@
 							<li>
 								<a href="#">Categories</a>
 								<ul class="sub_menu">
-									<li><a href="product.html">Figuras</a></li>
+									<li><a id="selectCategory" href="product.html">Figuras</a></li>
 									<li><a href="product.html">Videojuegos</a></li>
 									<li><a href="product.html">Comics</a></li>
 									<li><a href="product.html">Posters</a></li>
@@ -1008,6 +1008,12 @@
 	<div id="dropDownSelect1"></div>
 
 
+	<script type="text/javascript">
+		function selectCategory (){
+			sessionStorage.setItem("selectedCategory","Figuras");
+		}
+		document.getElementById('selectCategory').addEventListener('click', selectCategory, false);
+	</script>
 <!--===============================================================================================-->
 	<script src="https://www.gstatic.com/firebasejs/5.6.0/firebase.js"></script>
 	<script>
