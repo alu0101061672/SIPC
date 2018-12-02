@@ -814,7 +814,6 @@ li.sale-noti > a {
   width: 339px;
   top: 190%;
   right: -10px;
-  padding: 20px;
   border-top: 3px solid #e6e6e6;
   background-color: white;
 
@@ -2357,4 +2356,10 @@ input.num-product::-webkit-inner-spin-button {
   white-space: nowrap;
   overflow: hidden;
   max-width: 80%;
+}
+
+.secondary-button {
+  background-color: #e1e1e1;
+  width: 100%;
+  height: 50px;
 }
