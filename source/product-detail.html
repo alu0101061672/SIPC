@@ -405,7 +405,7 @@
 				<div class="wrap-slick3 flex-sb flex-w">
 					<div class="wrap-slick3-dots"></div>
 
-					<div class="slick3">
+					<div id="pictures" class="slick3">
 						<div class="item-slick3" data-thumb="images/thumb-item-01.jpg">
 							<div class="measures">
 								<img src="images/Fotos_Productos/CamisetaHombreGuardianesGalaxia/Frontal.jpg" alt="IMG-PRODUCT">
@@ -428,11 +428,11 @@
 			</div>
 
 			<div class="w-size14 p-t-30 respon5">
-				<h4 class="product-detail-name m-text16 p-b-13">
+				<h4 id="name" class="product-detail-name m-text16 p-b-13">
 					Boxy T-Shirt with Roll Sleeve Detail
 				</h4>
 
-				<span class="m-text17">
+				<span id="price" class="m-text17">
 					$22
 				</span>
 
@@ -499,7 +499,7 @@
 				</div>
 
 				<div class="p-b-45">
-					<span class="s-text8">Categories: Mug, Design</span>
+					<span id="category" class="s-text8">Categories: Mug, Design</span>
 				</div>
 
 
@@ -513,7 +513,7 @@
 			Description
 		</h5>
 
-		<p class="s-text8 m-t-10">
+		<p id="description" class="s-text8 m-t-10">
 			Fusce ornare mi vel risus porttitor dignissim. Nunc eget risus at ipsum blandit ornare vel sed velit. Proin gravida arcu nisl, a dignissim mauris placerat
 		</p>
 	</div>
@@ -991,8 +991,35 @@
 	<div id="dropDownSelect1"></div>
 	<div id="dropDownSelect2"></div>
 
+	<script src="https://www.gstatic.com/firebasejs/5.6.0/firebase.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-app.js"></script>
 
-
+	<!-- Add additional services that you want to use -->
+	<script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-auth.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-database.js"></script>
+	<script>
+		// Initialize Firebase
+		var config = {
+			apiKey: "AIzaSyCUYPyKMWSCx6vOSxTj2ua0nyeW-35nHRA",
+			authDomain: "frikiya-66687.firebaseapp.com",
+			databaseURL: "https://frikiya-66687.firebaseio.com",
+			projectId: "frikiya-66687",
+			storageBucket: "frikiya-66687.appspot.com",
+			messagingSenderId: "116404059954"
+		};
+		firebase.initializeApp(config);
+	</script>
+<!--===============================================================================================-->
+	<script type="text/javascript">
+		var productId = sessionStorage.getItem("selectedProductId");
+		firebase.database().ref("products/" + productId).on("value", function(snap) {
+			var changedPost = snap.val();
+			document.getElementById("description").innerHTML = changedPost.description;
+			document.getElementById("name").innerHTML = changedPost.name;
+			document.getElementById("category").innerHTML = 'Categories:' + changedPost.category;
+			document.getElementById("price").innerHTML = changedPost.price + "€";
+		});
+	</script>
 <!--===============================================================================================-->
 	<script type="text/javascript" src="vendor/jquery/jquery-3.2.1.min.js"></script>
 <!--===============================================================================================-->
