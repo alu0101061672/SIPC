@@ -2340,3 +2340,8 @@ input.num-product::-webkit-inner-spin-button {
   width: 100%;
   height: 50px;
 }
+
+.sticky-center {
+  position: sticky;
+  top: 100px;
+}
