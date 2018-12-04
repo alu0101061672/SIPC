@@ -145,9 +145,9 @@
 						<span id="different-products" class="header-icons-noti">0</span>
 
 						<!-- Header cart noti -->
-						<div class="header-cart header-dropdown">
+						<div class="p-b-20 p-t-20 p-l-20 p-r-20 header-cart header-dropdown">
 							<ul id="cart-items" class="header-cart-wrapitem">
-								
+
 							</ul>
 
 							<div class="header-cart-total">
@@ -791,27 +791,7 @@
 	<div id="dropDownSelect2"></div>
 
 
-	<script type="text/javascript">
-		function addToCart(productId, quantity, picture, name, price){
-			var li = document.createElement('li');
-			li.className = "header-cart-item";
-			li.innerHTML = 
-						'<div class="header-cart-item-img">\
-							<img src="' + picture + '" alt="IMG">\
-						</div>\
-						<div class="header-cart-item-txt">\
-							<a href="#" class="header-cart-item-name">\
-								' + name + '\
-							</a>\
-							<span class="header-cart-item-info">\
-								' + quantity + 'x' + price + '€\
-							</span>\
-						</div>';
-			
-			document.getElementById('cart-items').appendChild(li);
-			document.getElementById('different-products').innerText = parseInt(document.getElementById('different-products').innerText,10) + quantity;
-		}
-	</script>
+	<script src="js/update-cart.js"></script>
 	<!--===============================================================================================-->
 	<script type="text/javascript">
 		function seeDetails(element) {
@@ -889,7 +869,7 @@
 	</script>
 	<!--===============================================================================================-->
 	<script src="js/main.js"></script>
-		<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<script type="text/javascript">
 		sessionStorage.setItem("lowerPrice", document.getElementById('value-lower').innerText);
 		sessionStorage.setItem("higherPrice", document.getElementById('value-upper').innerText);
