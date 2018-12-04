@@ -146,54 +146,8 @@
 
 						<!-- Header cart noti -->
 						<div class="header-cart header-dropdown">
-							<ul class="header-cart-wrapitem">
-								<li class="header-cart-item">
-									<div class="header-cart-item-img">
-										<img src="images/item-cart-01.jpg" alt="IMG">
-									</div>
-
-									<div class="header-cart-item-txt">
-										<a href="#" class="header-cart-item-name">
-											White Shirt With Pleat Detail Back
-										</a>
-
-										<span class="header-cart-item-info">
-											1 x $19.00
-										</span>
-									</div>
-								</li>
-
-								<li class="header-cart-item">
-									<div class="header-cart-item-img">
-										<img src="images/item-cart-02.jpg" alt="IMG">
-									</div>
-
-									<div class="header-cart-item-txt">
-										<a href="#" class="header-cart-item-name">
-											Converse All Star Hi Black Canvas
-										</a>
-
-										<span class="header-cart-item-info">
-											1 x $39.00
-										</span>
-									</div>
-								</li>
-
-								<li class="header-cart-item">
-									<div class="header-cart-item-img">
-										<img src="images/item-cart-03.jpg" alt="IMG">
-									</div>
-
-									<div class="header-cart-item-txt">
-										<a href="#" class="header-cart-item-name">
-											Nixon Porter Leather Watch In Tan
-										</a>
-
-										<span class="header-cart-item-info">
-											1 x $17.00
-										</span>
-									</div>
-								</li>
+							<ul id="cart-items" class="header-cart-wrapitem">
+								
 							</ul>
 
 							<div class="header-cart-total">
@@ -837,6 +791,26 @@
 	<div id="dropDownSelect2"></div>
 
 
+	<script type="text/javascript">
+		function addToCart(productId, quantity, picture, name, price){
+			var li = document.createElement('li');
+			li.className = "header-cart-item";
+			li.innerHTML = 
+						'<div class="header-cart-item-img">\
+							<img src="' + picture + '" alt="IMG">\
+						</div>\
+						<div class="header-cart-item-txt">\
+							<a href="#" class="header-cart-item-name">\
+								' + name + '\
+							</a>\
+							<span class="header-cart-item-info">\
+								' + quantity + 'x' + price + '€\
+							</span>\
+						</div>';
+			
+			document.getElementById('cart-items').appendChild(li);
+		}
+	</script>
 	<!--===============================================================================================-->
 	<script type="text/javascript">
 		function seeDetails(element) {
@@ -938,7 +912,7 @@
 							<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4"><i class="icon-wishlist icon_heart_alt"\
 							aria-hidden="true"></i><i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i></a>\
 							<div class="block2-btn-addcart w-size1 trans-0-4">\
-							<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">Add to Cart</button>\
+							<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" onclick="addToCart(' + snapshot.key + ',' + 1 + ',\'images/Fotos_productos/CamisetaMario/frontal.jpg\',\'' + snapshot.child("name").val() + '\',' + snapshot.child("price").val() + ')">Add to Cart</button>\
 							</div>\
 							</div>\
 							</div>\
@@ -961,7 +935,7 @@
 				<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4"><i class="icon-wishlist icon_heart_alt"\
 				aria-hidden="true"></i><i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i></a>\
 				<div class="block2-btn-addcart w-size1 trans-0-4">\
-				<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">Add to Cart</button>\
+				<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" onclick="addToCart(' + snapshot.key + ',' + 1 + ',\'images/Fotos_productos/CamisetaMario/frontal.jpg\',\'' + snapshot.child("name").val() + '\',' + snapshot.child("price").val() + ')">Add to Cart</button>\
 				</div>\
 				</div>\
 				</div>\
