@@ -3,8 +3,15 @@ if (sessionStorage.getItem("cart-items") == null) {
 }
 var subtotal = 0;
 function addToCart(productId, quantity, picture, name, price) {
+    for (var i = 0; i < document.getElementById('cart-items').childNodes.length; i++) {
+        if(document.getElementById('cart-items').childNodes[i].id == productId){
+            document.getElementById('cart-items').removeChild(i);
+            break;
+        }
+    }
     var li = document.createElement('li');
     li.className = "header-cart-item";
+    li.id = productId;
     li.innerHTML =
         '<div class="header-cart-item-img">\
                 <img src="' + picture + '" alt="IMG">\
@@ -31,6 +38,7 @@ var prevCartItems = JSON.parse(sessionStorage.getItem("cart-items"));
 for (var i = 0; i < prevCartItems.length; i++) {
     var li = document.createElement('li');
     li.className = "header-cart-item";
+    li.id = prevCartItems[i].id;
     li.innerHTML =
         '<div class="header-cart-item-img">\
                 <img src="' + prevCartItems[i].itemPicture + '" alt="IMG">\
