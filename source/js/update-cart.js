@@ -18,8 +18,10 @@ function addToCart(productId, quantity, picture, name, price) {
                 </span>\
             </div>';
 
+    subtotal += quantity * price;
     document.getElementById('cart-items').appendChild(li);
-    document.getElementById('different-products').innerText = parseInt(document.getElementById('different-products').innerText, 10) + quantity;
+    document.getElementById('different-products').innerText = parseInt(document.getElementById('different-products').innerText, 10) + parseInt(quantity);
+    document.getElementById('subtotal').innerText = subtotal;
 
     var cartItems = JSON.parse(sessionStorage.getItem("cart-items"));
     cartItems.push({ id: productId, itemQuantity: quantity, itemPicture: picture, itemName: name, itemPrice: price });

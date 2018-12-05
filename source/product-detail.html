@@ -967,7 +967,7 @@
 	</script>
 <!--===============================================================================================-->
 	<script type="text/javascript">
-		var productId = sessionStorage.getItem("selectedProductId");
+		var productId = JSON.parse(sessionStorage.getItem("selectedProductId"));
 		firebase.database().ref("products/" + productId).on("value", function(snap) {
 			var changedPost = snap.val();
 			document.getElementById("description").innerHTML = changedPost.description;
