@@ -3,9 +3,13 @@ if (sessionStorage.getItem("cart-items") == null) {
 }
 var subtotal = 0;
 function addToCart(productId, quantity, picture, name, price) {
-    for (var i = 0; i < document.getElementById('cart-items').childNodes.length; i++) {
-        if(document.getElementById('cart-items').childNodes[i].id == productId){
-            document.getElementById('cart-items').removeChild(i);
+    var listOfCartItems = JSON.parse(sessionStorage.getItem("cart-items"));
+    for (var i = 0; i < listOfCartItems.length; i++) {
+        if(listOfCartItems[i].id == productId){
+            subtotal-= listOfCartItems[i].itemQuantity * listOfCartItems[i].itemPrice;
+            document.getElementById('different-products').innerText = parseInt(document.getElementById('different-products').innerText, 10) - parseInt(listOfCartItems[i].itemQuantity);
+            document.getElementById(productId).remove();
+            listOfCartItems.splice(i, 1);
             break;
         }
     }
@@ -30,9 +34,8 @@ function addToCart(productId, quantity, picture, name, price) {
     document.getElementById('different-products').innerText = parseInt(document.getElementById('different-products').innerText, 10) + parseInt(quantity);
     document.getElementById('subtotal').innerText = subtotal;
 
-    var cartItems = JSON.parse(sessionStorage.getItem("cart-items"));
-    cartItems.push({ id: productId, itemQuantity: quantity, itemPicture: picture, itemName: name, itemPrice: price });
-    sessionStorage.setItem("cart-items", JSON.stringify(cartItems));
+    listOfCartItems.push({ id: productId, itemQuantity: quantity, itemPicture: picture, itemName: name, itemPrice: price });
+    sessionStorage.setItem("cart-items", JSON.stringify(listOfCartItems));
 }
 var prevCartItems = JSON.parse(sessionStorage.getItem("cart-items"));
 for (var i = 0; i < prevCartItems.length; i++) {
@@ -54,6 +57,6 @@ for (var i = 0; i < prevCartItems.length; i++) {
 
     subtotal += prevCartItems[i].itemQuantity * prevCartItems[i].itemPrice;
     document.getElementById('cart-items').appendChild(li);
-    document.getElementById('different-products').innerText = parseInt(document.getElementById('different-products').innerText, 10) + prevCartItems[i].itemQuantity;
+    document.getElementById('different-products').innerText = parseInt(document.getElementById('different-products').innerText, 10) + parseInt(prevCartItems[i].itemQuantity);
     document.getElementById('subtotal').innerText = subtotal;
 }
