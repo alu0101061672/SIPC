@@ -647,9 +647,8 @@ iframe {
 /*Buscador*/
 /*---------------------------------------------------------*/
 
-.container {
+.containersearcher {
 
- 
   max-width: 600px;
   width: 700px;
   height: 27px;
