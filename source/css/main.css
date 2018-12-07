@@ -549,6 +549,7 @@ iframe {
 }
 
 
+
 /* ------------------------------------ */
 
 .topbar-social {
@@ -609,7 +610,8 @@ iframe {
   width: 100%;
   height: 80px;
   background-color: white;
-  justify-content: center;
+  padding-left: 200px;
+  justify-content: flex-start;
   align-items: center;
   position: relative;
   -webkit-transition: all 0.3s;
@@ -641,6 +643,99 @@ iframe {
   width:120px;
   height:60px;
 }
+
+/*Buscador*/
+/*---------------------------------------------------------*/
+
+.container {
+
+ 
+  max-width: 600px;
+  width: 700px;
+  height: 27px;
+  padding-right: 150px;  
+
+}
+
+.row {
+
+  justify-content: flex-end;
+
+}
+
+.form-control {
+
+font-family: Montserrat-Regular;
+font-weight: 400;
+font-size: 13px;
+height: 27px;
+margin-top: -2.5px;
+}
+
+.col-lg-6 {
+
+max-width: 70%;
+
+}
+
+.search-form .input-group {
+  float: right !important;
+  transition: all 0.35s, border-radius 0s;
+  width: 27px;
+  height: 27px;
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  padding-left: 8px;
+
+}
+
+.search-form .input-group input.form-control {
+  margin-left: -25px;
+  border:none;
+  background: transparent;
+  box-shadow: none;
+  display:block;
+  padding: 1rem 2rem;
+}
+
+.search-form .input-group input.form-control::-webkit-input-placeholder {
+  display: none;
+}
+.search-form .input-group input.form-control:-moz-placeholder {
+  /* Firefox 18- */
+  display: none;
+}
+.search-form .input-group input.form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  display: none;
+}
+.search-form .input-group input.form-control:-ms-input-placeholder {
+  display: none;
+}
+.search-form .input-group:hover,
+.search-form .input-group.hover {
+  width: 100%;
+  border-radius: 25px 25px 25px 25px;
+}
+
+.search-form .input-group span.form-control-feedback {
+  position: absolute;
+  top: -5px;
+  bottom: 0px;
+  right: -5px;
+  left: 0px;
+  display: block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  color: #3596e0;
+  left: initial;
+  font-size: 14px;
+}
+
 
 
 /*[ Menu ]
