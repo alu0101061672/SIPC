@@ -70,42 +70,72 @@
 					<img src="images/icons/logo.png" alt="IMG-LOGO">
 				</a>
 
-				<!-- Menu -->
-				<div class="wrap_menu">
-					<nav class="menu">
-						<ul class="main_menu">
-							<li>
-								<a href="index.html">Home</a>
-								<ul class="sub_menu">
-									<li><a href="index.html">Homepage V1</a></li>
-									<li><a href="home-02.html">Homepage V2</a></li>
-									<li><a href="home-03.html">Homepage V3</a></li>
+						<!-- Menu -->
+						<div class="wrap_menu">
+							<nav class="menu">
+								<ul class="main_menu" >
+									<li id="myDIV" class="btn">
+										<a href="index.html">Home</a>
+									</li>
+				
+									<li class="btn">
+										<a href="#" >Categories</a>
+										<ul class="sub_menu">
+											<li><a id="selectCategory" href="product.html">Figuras</a></li>
+											<li><a href="product.html">Videojuegos</a></li>
+											<li><a href="product.html">Comics</a></li>
+											<li><a href="product.html">Posters</a></li>
+											<li><a href="product.html">Ropa</a></li>
+											<li><a href="product.html">Juguetes</a></li>
+										</ul>
+									</li>
+				
+									<li class="btn">
+										<a href="product.html" >Shop</a>
+									</li>
+				
+									<li class="btn">
+										<a href="blog.html" >Blog</a>
+									</li>
+				
+									<li class="btn active">
+										<a href="about.html" >About</a>
+									</li>
+				
 								</ul>
-							</li>
+							</nav>
+						</div>
+				
+				<script>
+					// Add active class to the current button (highlight it)
+					var header = document.getElementById("myDIV");
+					var btns = header.getElementsByClassName("btn");
+					for (var i = 0; i < btns.length; i++) {
+					  btns[i].addEventListener("click", function() {
+					  var current = document.getElementsByClassName("active");
+					  current[0].className = current[0].className.replace(" active", "");
+					  this.className += " active";
+					  });
+					}
+				</script>
 
-							<li>
-								<a href="product.html">Shop</a>
-							</li>
 
-							<li class="sale-noti">
-								<a href="product.html">Sale</a>
-							</li>
-
-							<li>
-								<a href="cart.html">Features</a>
-							</li>
-
-							<li>
-								<a href="blog.html">Blog</a>
-							</li>
-
-							<li>
-								<a href="about.html">About</a>
-							</li>
-
-						</ul>
-					</nav>
+ 				<!-- Buscador -->
+				
+				<div class="container containersearcher">
+					<div class="row">
+    						<div class="col-lg-6">
+      							<form class="form-horizontal my-2 my-md-0 search-form" [formGroup]="searchForm" role="form" (keyup.enter)="onSubmit()">
+          							<div class="input-group">
+            								<input type="text" class="form-control" formControlName="searchText" id="searchertext" placeholder="Search..." size="20">
+            								<span class="input-group-btn fa fa-search form-control-feedback">
+     									</span>
+        							</div>
+      							</form>
+    						</div>
+					</div>
 				</div>
+
 
 				<!-- Header Icon -->
 				<div class="header-icons">
@@ -329,7 +359,7 @@
 			<div class="row">
 				<div class="col-md-4 p-b-30">
 					<div class="hov-img-zoom">
-						<img src="images/banner-14.jpg" alt="IMG-ABOUT">
+						<img src="images/tienda.png" alt="Tienda">
 					</div>
 				</div>
 
@@ -339,16 +369,25 @@
 					</h3>
 
 					<p class="p-b-28">
-						Phasellus egestas nisi nisi, lobortis ultricies risus semper nec. Vestibulum pharetra ac ante ut pellentesque. Curabitur fringilla dolor quis lorem accumsan, vitae molestie urna dapibus. Pellentesque porta est ac neque bibendum viverra. Vivamus lobortis magna ut interdum laoreet. Donec gravida lorem elit, quis condimentum ex semper sit amet. Fusce eget ligula magna. Aliquam aliquam imperdiet sodales. Ut fringilla turpis in vehicula vehicula. Pellentesque congue ac orci ut gravida. Aliquam erat volutpat. Donec iaculis lectus a arcu facilisis, eu sodales lectus sagittis. Etiam pellentesque, magna vel dictum rutrum, neque justo eleifend elit, vel tincidunt erat arcu ut sem. Sed rutrum, turpis ut commodo efficitur, quam velit convallis ipsum, et maximus enim ligula ac ligula. Vivamus tristique vulputate ultricies. Sed vitae ultrices orci.
+						
+						FrikiYa nace oficialmente el 26/11/2018 de mano de sus fundadores, Basilio Gómez, Jorge González, Sonia Díaz, los cuales organizamos esta sociedad con mucha ilusión. La sede de FrikiYa se encuentra en Tenerife, San Cristóbal de La Laguna, Av. Trinidad, 38203.
+						<br>
+						El objetivo principal de FrikiYa es llegar al público de todo el territorio nacional español, a través de todos nuestros productos como ropa, figuras y merchandise en general de una forma personalizada, especializada y haciendo énfasis en el trato cercano con nuestro cliente.
+						<br>
+						En FrikiYa trabajamos las mejores marcas del mercado como pueden ser: Kotobukiya, Funko, Hot Toys, Sideshow Collector, NECA, Joy Toys, Megahouse, Good Smile Company, Diamond Select Toys, Figuarts Zero, Figma, Attakus, Jakks Pacific, Master Stars Piece...
+						<br>
+						Esperamos que tu visita a nuestra tienda online sea de tu agrado.Gracias por visitarnos, ¡cualquier duda o problema estaremos encantados de ayudarte!
+
 					</p>
 
 					<div class="bo13 p-l-29 m-l-9 p-b-10">
 						<p class="p-b-11">
-							Creativity is just connecting things. When you ask creative people how they did something, they feel a little guilty because they didn't really do it, they just saw something. It seemed obvious to them after a while.
+							 Y posturea para que el mundo lo vea, que la vida con un filtro no es tan fea. Y si no te sientes guay,es porque tu autoestima se mide en likes.
+							 Disculpa, sigue esta cadena, si no compartes este tema, morirá un gatito por tu culpa. ¡Es una pena!
 						</p>
 
 						<span class="s-text7">
-							- Steve Job’s
+							- Jorge González feat Arnau Griso
 						</span>
 					</div>
 				</div>
@@ -357,7 +396,8 @@
 	</section>
 
 
-    <hr />
+    <center><div id="linea"></div></center>
+
 
 	<!-- Title Page -->
 	<!-- <section class="bg-title-page p-t-40 p-b-50 flex-col-c-m" style="background-image: url(images/heading-pages-06.jpg);">
@@ -411,8 +451,6 @@
 			</div>
 		</div>
 	</section>
-
-
 
 	<!-- Footer -->
 	<footer class="bg6 p-t-45 p-b-43 p-l-45 p-r-45">
