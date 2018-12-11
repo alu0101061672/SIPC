@@ -69,46 +69,73 @@
 				<a href="index.html" class="logo">
 					<img src="images/icons/logo.png" alt="IMG-LOGO">
 				</a>
-
-				<!-- Menu -->
-				<div class="wrap_menu">
-					<nav class="menu">
-						<ul class="main_menu">
-							<li>
-								<a href="index.html">Home</a>
-								<ul class="sub_menu">
-									<li><a href="index.html">Homepage V1</a></li>
-									<li><a href="home-02.html">Homepage V2</a></li>
-									<li><a href="home-03.html">Homepage V3</a></li>
+						<!-- Menu -->
+						<div class="wrap_menu">
+							<nav class="menu">
+								<ul class="main_menu" >
+									<li id="myDIV" class="btn">
+										<a href="index.html">Home</a>
+									</li>
+				
+									<li class="btn">
+										<a href="#" >Categories</a>
+										<ul class="sub_menu">
+											<li><a id="selectCategory" href="product.html">Figuras</a></li>
+											<li><a href="product.html">Videojuegos</a></li>
+											<li><a href="product.html">Comics</a></li>
+											<li><a href="product.html">Posters</a></li>
+											<li><a href="product.html">Ropa</a></li>
+											<li><a href="product.html">Juguetes</a></li>
+										</ul>
+									</li>
+				
+									<li class="btn active">
+										<a href="product.html" >Shop</a>
+									</li>
+				
+									<li class="btn">
+										<a href="blog.html" >Blog</a>
+									</li>
+				
+									<li class="btn">
+										<a href="about.html" >About</a>
+									</li>
+				
 								</ul>
-							</li>
+							</nav>
+						</div>
+				
+				<script>
+					// Add active class to the current button (highlight it)
+					var header = document.getElementById("myDIV");
+					var btns = header.getElementsByClassName("btn");
+					for (var i = 0; i < btns.length; i++) {
+					  btns[i].addEventListener("click", function() {
+					  var current = document.getElementsByClassName("active");
+					  current[0].className = current[0].className.replace(" active", "");
+					  this.className += " active";
+					  });
+					}
+				</script>
 
-							<li>
-								<a href="product.html">Shop</a>
-							</li>
 
-							<li class="sale-noti">
-								<a href="product.html">Sale</a>
-							</li>
-
-							<li>
-								<a href="cart.html">Features</a>
-							</li>
-
-							<li>
-								<a href="blog.html">Blog</a>
-							</li>
-
-							<li>
-								<a href="about.html">About</a>
-							</li>
-
-							<li>
-								<a href="contact.html">Contact</a>
-							</li>
-						</ul>
-					</nav>
+ 				<!-- Buscador -->
+				
+				<div class="container containersearcher">
+					<div class="row">
+    						<div class="col-lg-6">
+      							<form class="form-horizontal my-2 my-md-0 search-form" [formGroup]="searchForm" role="form" (keyup.enter)="onSubmit()">
+          							<div class="input-group">
+            								<input type="text" class="form-control" formControlName="searchText" id="searchertext" placeholder="Search..." size="20">
+            								<span class="input-group-btn fa fa-search form-control-feedback">
+     									</span>
+        							</div>
+      							</form>
+    						</div>
+					</div>
 				</div>
+
+
 
 				<!-- Header Icon -->
 				<div class="header-icons">

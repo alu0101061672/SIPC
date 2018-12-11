@@ -95,42 +95,53 @@
 				<!-- Menu -->
 				<div class="wrap_menu">
 					<nav class="menu">
-						<ul class="main_menu">
-							<li>
-								<a href="index.html">Home</a>
-								<ul class="sub_menu">
-									<li><a href="index.html">Homepage V1</a></li>
-									<li><a href="home-02.html">Homepage V2</a></li>
-									<li><a href="home-03.html">Homepage V3</a></li>
-								</ul>
-							</li>
+						<ul class="main_menu" >
+							<li id="myDIV" class="btn">
+								<a href="index.html">Home</a>	
+							</li>				
 
-							<li>
+							<li class="btn active">
 								<a href="product.html">Shop</a>
 							</li>
 
-							<li class="sale-noti">
+							<li class="sale-noti btn">
 								<a href="product.html">Sale</a>
 							</li>
 
-							<li>
+							<li class="btn">
 								<a href="cart.html">Features</a>
 							</li>
 
-							<li>
+							<li class="btn">
 								<a href="blog.html">Blog</a>
 							</li>
 
-							<li>
+							<li class="btn">
 								<a href="about.html">About</a>
 							</li>
 
-							<li>
-								<a href="contact.html">Contact</a>
-							</li>
 						</ul>
 					</nav>
 				</div>
+
+
+ 				<!-- Buscador -->
+				
+				<div class="container containersearcher productsearcher">
+					<div class="row">
+    						<div class="col-lg-6">
+      							<form class="form-horizontal my-2 my-md-0 search-form" [formGroup]="searchForm" role="form" (keyup.enter)="onSubmit()">
+          							<div class="input-group">
+            								<input type="text" class="form-control" formControlName="searchText" id="searchertext" placeholder="Search..." size="20">
+            								<span class="input-group-btn fa fa-search form-control-feedback">
+     									</span>
+        							</div>
+      							</form>
+    						</div>
+					</div>
+				</div>
+
+
 
 				<!-- Header Icon -->
 				<div class="header-icons">
