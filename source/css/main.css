@@ -692,7 +692,7 @@ max-width: 70%;
 
 }
 
-.tipo{
+.estructuraprincipal{
 
   font-size: 22px;
   font-weight: 800;
@@ -704,9 +704,7 @@ max-width: 70%;
 }
 
 
-
-
-.grupo {
+.gruposearcher {
 
   transition: all 0.35s, border-radius 0s;
   width: 600px;
@@ -719,7 +717,7 @@ max-width: 70%;
 
 }
 
-.control {
+.controlsearcher {
 
   margin-left: -320px;
   margin-top: -8px;
