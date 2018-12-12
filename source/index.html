@@ -362,8 +362,8 @@
     					<div class="col-lg-6">
       						<form class="search-form" [formGroup]="searchForm" >
           						<center><div class="grupo">
-            							<input type="text" class="control" formControlName="searchText" id="searchertext" placeholder="Search..." size="20">
-            							<span class="input-group-btn fa fa-search control-feedback"></span>
+            							<input id="searcherInput" type="text" class="control" formControlName="searchText" id="searchertext" placeholder="Search..." size="20">
+            							<span id="searcherButton" class="input-group-btn fa fa-search control-feedback"></span>
         						</div></center>
       						</form>
     					</div>
@@ -964,7 +964,16 @@
 	<!-- Container Selection1 -->
 	<div id="dropDownSelect1"></div>
 
-
+	<script type="text/javascript">
+		var searcherButton = document.getElementById('searcherButton');
+		searcherButton.addEventListener('click',function(){
+			if(document.getElementById('searcherInput').value.length > 0){
+				window.location.href = "product.html";
+				sessionStorage.setItem("searchExpression",document.getElementById('searcherInput').value);
+			}
+		});
+	</script>
+<!--===============================================================================================-->
 	<script src="js/update-cart.js"></script>
 <!--===============================================================================================-->
 	<script type="text/javascript">
