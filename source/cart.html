@@ -1,36 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<title>Cart</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--===============================================================================================-->
-	<link rel="icon" type="image/png" href="images/icons/favicon.png"/>
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.png" />
+	<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="fonts/themify/themify-icons.css">
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="fonts/elegant-font/html-css/style.css">
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/slick/slick.css">
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 </head>
+
 <body class="animsition">
 
 	<!-- Header -->
@@ -69,69 +71,70 @@
 				<a href="index.html" class="logo">
 					<img src="images/icons/logo.png" alt="IMG-LOGO">
 				</a>
-						<!-- Menu -->
-						<div class="wrap_menu">
-							<nav class="menu">
-								<ul class="main_menu" >
-									<li id="myDIV" class="btn">
-										<a href="index.html">Home</a>
-									</li>
-				
-									<li class="btn">
-										<a href="#" >Categories</a>
-										<ul class="sub_menu">
-											<li><a id="selectCategory" href="product.html">Figuras</a></li>
-											<li><a href="product.html">Videojuegos</a></li>
-											<li><a href="product.html">Comics</a></li>
-											<li><a href="product.html">Posters</a></li>
-											<li><a href="product.html">Ropa</a></li>
-											<li><a href="product.html">Juguetes</a></li>
-										</ul>
-									</li>
-				
-									<li class="btn active">
-										<a href="product.html" >Shop</a>
-									</li>
-				
-									<li class="btn">
-										<a href="blog.html" >Blog</a>
-									</li>
-				
-									<li class="btn">
-										<a href="about.html" >About</a>
-									</li>
-				
+				<!-- Menu -->
+				<div class="wrap_menu">
+					<nav class="menu">
+						<ul class="main_menu">
+							<li id="myDIV" class="btn">
+								<a href="index.html">Home</a>
+							</li>
+
+							<li class="btn">
+								<a href="#">Categories</a>
+								<ul class="sub_menu">
+									<li><a id="selectCategory" href="product.html">Figuras</a></li>
+									<li><a href="product.html">Videojuegos</a></li>
+									<li><a href="product.html">Comics</a></li>
+									<li><a href="product.html">Posters</a></li>
+									<li><a href="product.html">Ropa</a></li>
+									<li><a href="product.html">Juguetes</a></li>
 								</ul>
-							</nav>
-						</div>
-				
+							</li>
+
+							<li class="btn active">
+								<a href="product.html">Shop</a>
+							</li>
+
+							<li class="btn">
+								<a href="blog.html">Blog</a>
+							</li>
+
+							<li class="btn">
+								<a href="about.html">About</a>
+							</li>
+
+						</ul>
+					</nav>
+				</div>
+
 				<script>
 					// Add active class to the current button (highlight it)
 					var header = document.getElementById("myDIV");
 					var btns = header.getElementsByClassName("btn");
 					for (var i = 0; i < btns.length; i++) {
-					  btns[i].addEventListener("click", function() {
-					  var current = document.getElementsByClassName("active");
-					  current[0].className = current[0].className.replace(" active", "");
-					  this.className += " active";
-					  });
+						btns[i].addEventListener("click", function () {
+							var current = document.getElementsByClassName("active");
+							current[0].className = current[0].className.replace(" active", "");
+							this.className += " active";
+						});
 					}
 				</script>
 
 
- 				<!-- Buscador -->
-				
+				<!-- Buscador -->
+
 				<div class="container containersearcher">
 					<div class="row">
-    						<div class="col-lg-6">
-      							<form class="form-horizontal my-2 my-md-0 search-form" [formGroup]="searchForm" role="form" (keyup.enter)="onSubmit()">
-          							<div class="input-group">
-            								<input type="text" class="form-control" formControlName="searchText" id="searchertext" placeholder="Search..." size="20">
-            								<span class="input-group-btn fa fa-search form-control-feedback">
-     									</span>
-        							</div>
-      							</form>
-    						</div>
+						<div class="col-lg-6">
+							<form class="form-horizontal my-2 my-md-0 search-form" [formGroup]="searchForm" role="form" (keyup.enter)="onSubmit()">
+								<div class="input-group">
+									<input type="text" class="form-control" formControlName="searchText" id="searchertext" placeholder="Search..."
+									 size="20">
+									<span class="input-group-btn fa fa-search form-control-feedback">
+									</span>
+								</div>
+							</form>
+						</div>
 					</div>
 				</div>
 
@@ -164,7 +167,7 @@
 								</div>
 								<div class="header-cart-total">
 									Subtotal: <span id="subtotal">0.0</span>€
-								</div>							
+								</div>
 							</div>
 						</div>
 					</div>
@@ -277,7 +280,7 @@
 		</div>
 
 		<!-- Menu Mobile -->
-		<div class="wrap-side-menu" >
+		<div class="wrap-side-menu">
 			<nav class="side-menu">
 				<ul class="main-menu">
 					<li class="item-topbar-mobile p-l-20 p-t-8 p-b-8">
@@ -368,26 +371,26 @@
 			</div>
 
 			<div class="sticky-center h-size3 shadow-car d-flex flex-column col-lg-3 p-t-25 p-b-15 p-l-35 p-r-35 justify-content-around">
-					<h5 class="m-text20 p-b-24">
-						Cart Totals
-					</h5>
+				<h5 class="m-text20 p-b-24">
+					Cart Totals
+				</h5>
 
-					<div class="d-flex flex-column p-b-12">
-						<span class="s-text18 align-self-start">Subtotal:</span>
-						<span class="m-text21 align-self-end">$39.00</span>
-					</div>
-					<div class="d-flex flex-column p-b-12">
-							<span class="s-text18 align-self-start">Shipping:</span>
-							<span class="m-text21 align-self-end">$39.00</span>
-					</div>
-					<div class="d-flex flex-column p-b-12">
-							<span class="s-text18 align-self-start">Total:</span>
-							<span class="m-text21 align-self-end">$39.00</span>
-					</div>
+				<div class="d-flex flex-column p-b-12">
+					<span class="s-text18 align-self-start">Subtotal:</span>
+					<span id="card-subtotal" class="m-text21 align-self-end">$39.00</span>
+				</div>
+				<div class="d-flex flex-column p-b-12">
+					<span class="s-text18 align-self-start">Shipping:</span>
+					<span id="shipping" class="m-text21 align-self-end">$39.00</span>
+				</div>
+				<div class="d-flex flex-column p-b-12">
+					<span class="s-text18 align-self-start">Total:</span>
+					<span id="card-total" class="m-text21 align-self-end">$39.00</span>
+				</div>
 
-					<div class="size10 trans-0-4 m-t-10 m-b-10 align-self-center">
-						<!-- Button -->
-						<button class="flex-c-m sizefull bg1 bo-rad-23 hov1 s-text1 trans-0-4">Checkout</button>
+				<div class="size10 trans-0-4 m-t-10 m-b-10 align-self-center">
+					<!-- Button -->
+					<button class="flex-c-m sizefull bg1 bo-rad-23 hov1 s-text1 trans-0-4">Checkout</button>
 				</div>
 			</div>
 		</div>
@@ -405,7 +408,8 @@
 
 				<div>
 					<p class="s-text7 w-size27">
-						Any questions? Let us know in store at 8th floor, 379 Hudson St, New York, NY 10018 or call us on (+1) 96 716 6879
+						Any questions? Let us know in store at 8th floor, 379 Hudson St, New York, NY 10018 or call us on (+1) 96 716
+						6879
 					</p>
 
 					<div class="flex-m p-t-30">
@@ -558,7 +562,8 @@
 			</a>
 
 			<div class="t-center s-text8 p-t-20">
-				Copyright © 2018 All rights reserved. | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+				Copyright © 2018 All rights reserved. | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i>
+				by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 			</div>
 		</div>
 	</footer>
@@ -576,16 +581,20 @@
 	<div id="dropDownSelect1"></div>
 	<div id="dropDownSelect2"></div>
 
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<script src="js/update-cart.js"></script>
 	<script type="text/javascript">
 		var prevCartItems = JSON.parse(sessionStorage.getItem("cart-items"));
+		var subtotalMoney = 0;
+		var shippingMoney = (Math.random() * 100) % 20;
+		var totalMoney = 0;
 		for (var i = 0; i < prevCartItems.length; i++) {
 			var totalPrice = prevCartItems[i].itemQuantity * prevCartItems[i].itemPrice;
+			subtotalMoney += totalPrice;
 			var tr = document.createElement('tr');
 			tr.className = "table-row";
 			tr.innerHTML =
-			'<td class="column-1">\
+				'<td class="column-1">\
 				<div class="cart-img-product b-rad-4 o-f-hidden">\
 					<img src="' + prevCartItems[i].itemPicture + '" alt="IMG-PRODUCT">\
 				</div>\
@@ -607,15 +616,19 @@
 
 			document.getElementById('products-to-buy').appendChild(tr);
 		}
+		totalMoney = subtotalMoney + shippingMoney;
+		document.getElementById('card-subtotal').innerText = subtotalMoney.toFixed(2) + ' €';
+		document.getElementById('shipping').innerText = (shippingMoney).toFixed(2) + ' €';
+		document.getElementById('card-total').innerText = (totalMoney).toFixed(2) + ' €';
 	</script>
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<script type="text/javascript" src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<script type="text/javascript" src="vendor/animsition/js/animsition.min.js"></script>
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<script type="text/javascript" src="vendor/bootstrap/js/popper.js"></script>
 	<script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<script type="text/javascript" src="vendor/select2/select2.min.js"></script>
 	<script type="text/javascript">
 		$(".selection-1").select2({
@@ -628,8 +641,9 @@
 			dropdownParent: $('#dropDownSelect2')
 		});
 	</script>
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<script src="js/main.js"></script>
 
 </body>
+
 </html>

@@ -874,13 +874,14 @@
 			sessionStorage.setItem("selectedCategory", 'All')
 
 		function filterProducts(category, lower, higher, searchExpression) {
-			debugger;
+			if (searchExpression == null) searchExpression = "";
 			var products = document.getElementById("products");
 			while (products.lastChild) {
 				products.removeChild(products.lastChild)
 			}
 			if (category != "All") {
 				firebase.database().ref("products").orderByChild("category").equalTo(category).on("child_added", function (snapshot, prevChildKey) {
+					debugger;
 					if (snapshot.child("price").val() >= lower && snapshot.child("price").val() <= higher && snapshot.child("name").val().search(searchExpression) != -1) {
 						var div = document.createElement('div');
 						div.className = 'col-sm-12 col-md-6 col-lg-4 p-b-50';
