@@ -595,13 +595,22 @@
 			while (i < cartItems.length && cartItems[i].id != id) {
 				i++
 			}
-			if(i < cartItems.length && (cartItems[i].itemQuantity + change) > 0){
-				addToCart(id, cartItems[i].itemQuantity + change, cartItems[i].itemPicture, cartItems[i].itemName, cartItems[i].itemPrice);
-				document.getElementById('total-price-' + id).innerText = (cartItems[i].itemQuantity + change) * cartItems[i].itemPrice + '€';
-				subtotalMoney += ( cartItems[i].itemPrice * change);
-				document.getElementById('card-subtotal').innerText = subtotalMoney.toFixed(2) + ' €';
-				totalMoney = totalMoney = subtotalMoney + shippingMoney;
-				document.getElementById('card-total').innerText = (totalMoney).toFixed(2) + ' €';
+			if (i < cartItems.length) {
+				if ((cartItems[i].itemQuantity + change) > 0) {
+					addToCart(id, cartItems[i].itemQuantity + change, cartItems[i].itemPicture, cartItems[i].itemName, cartItems[i].itemPrice);
+					document.getElementById('total-price-' + id).innerText = (cartItems[i].itemQuantity + change) * cartItems[i].itemPrice + '€';
+					subtotalMoney += (cartItems[i].itemPrice * change);
+					document.getElementById('card-subtotal').innerText = subtotalMoney.toFixed(2) + ' €';
+					totalMoney = totalMoney = subtotalMoney + shippingMoney;
+					document.getElementById('card-total').innerText = (totalMoney).toFixed(2) + ' €';
+				} else if ((cartItems[i].itemQuantity + change) == 0){
+					removeFromCart(id);
+					document.getElementById('products-to-buy').removeChild(document.getElementById('big-product-img-' + id));
+					subtotalMoney += (cartItems[i].itemPrice * change);
+					document.getElementById('card-subtotal').innerText = subtotalMoney.toFixed(2) + ' €';
+					totalMoney = totalMoney = subtotalMoney + shippingMoney;
+					document.getElementById('card-total').innerText = (totalMoney).toFixed(2) + ' €';
+				}
 			}
 		}
 		for (var i = 0; i < prevCartItems.length; i++) {
@@ -609,6 +618,7 @@
 			subtotalMoney += totalPrice;
 			var tr = document.createElement('tr');
 			tr.className = "table-row";
+			tr.id = "big-product-img-" + prevCartItems[i].id;
 			tr.innerHTML =
 				'<td class="column-1">\
 				<div class="cart-img-product b-rad-4 o-f-hidden">\
