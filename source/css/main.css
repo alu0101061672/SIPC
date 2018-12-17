@@ -658,7 +658,7 @@ iframe {
   padding-right: 133px;
 }
 
-.row {
+.fila {
 
   justify-content: flex-end;
 
@@ -813,8 +813,10 @@ max-width: 70%;
 
 .active, .btn:hover {
 
-  background-color:  #ffffff;
-  
+  background-color: #2BA9E1; 
+  opacity:0.75;
+
+
 }
 
 #linea {
@@ -836,14 +838,13 @@ max-width: 70%;
 li.sale-noti > a {
   color: #e65540;
 }
-
+/* Esto sería si se quisiera cambiar el color de la letra al pasar el ratón
 .main_menu > li:hover > a {
   text-decoration: none;
   border-bottom: 1px solid white;
-  color:white;
+  color:#177CBE;
  
-
-}
+}*/
 
 .main_menu li {
   position: relative;
