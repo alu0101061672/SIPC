@@ -1,0 +1,1061 @@
+{
+    "products": {
+        "0": {
+            "name": "Camiseta Mario",
+            "price": 16.7,
+            "category": "Ropa",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Ropa/CamisetaMario/frontal.jpg"
+            ]
+        },
+
+        "1": {
+            "name": "Sudadera Harry Potter",
+            "price": 16.7,
+            "category": "Ropa",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Ropa/SudaderaHarryPotter/frontal.jpg"
+            ]
+        },
+
+        "2": {
+            "name": "Camiseta Star Wars",
+            "price": 16.7,
+            "category": "Ropa",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Ropa/CamisetaMujerStarWars/frontal.jpg"
+            ]
+        },
+
+        "3": {
+            "name": "Camiseta Spiderman",
+            "price": 25.5,
+            "category": "Ropa",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Ropa/CamisetaSpiderman/camiseta-spiderman-arana.jpg"
+            ]
+        },
+
+	"4": {
+            "name": "Camiseta Capitán América",
+            "price": 25.5,
+            "category": "Ropa",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Ropa/CamisetaCapitanAmerica/camiseta-capitan-america-escudo.jpg"
+            ]
+        },
+
+	"5": {
+            "name": "Khal Drogo",
+            "price": 25.5,
+            "category": "Figuras",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Figuras/figura-khal-drogo.jpg"
+            ]
+        },
+
+	"6": {
+            "name": "Celula Dragon Ball",
+            "price": 25.5,
+            "category": "Figuras",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Figuras/figura-pop-dragon-ball-celula.jpg"
+            ]
+        },
+
+	"7": {
+            "name": "Goku",
+            "price": 25.5,
+            "category": "Figuras",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Figuras/goku-nube-kinton-dragon-ball.jpg"
+            ]
+        },
+
+	"8": {
+            "name": "Rick Morty teacher",
+            "price": 25.5,
+            "category": "Figuras",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Figuras/figura-pop-rick--morty-teacher-rick.jpg"
+            ]
+        },
+
+	"9": {
+            "name": "Danny Zuko Grease",
+            "price": 25.5,
+            "category": "Figuras",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Figuras/funko-pop-grease-danny-zuko.jpg"
+            ]
+        },
+
+	"10": {
+            "name": "Baby Groot Christmas",
+            "price": 25.5,
+            "category": "Figuras",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Figuras/groot.png"
+            ]
+        },
+
+	"11": {
+            "name": "Hermione Granger Harry Potter",
+            "price": 25.5,
+            "category": "Figuras",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Figuras/hermione.jpg"
+            ]
+        },
+
+	"12": {
+            "name": "Negan The Walking Dead",
+            "price": 25.5,
+            "category": "Figuras",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Figuras/negan-the-walking-dead-funko-pop-vinyl.jpg"
+            ]
+        },
+
+	"13": {
+            "name": "Ron Weasley Harry Potter",
+            "price": 25.5,
+            "category": "Figuras",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Figuras/ron.jpg"
+            ]
+        },
+
+	"14": {
+            "name": "Scorpion Mortal Kombat",
+            "price": 25.5,
+            "category": "Figuras",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Figuras/scorpion-figura-mortal-kombat-f.jpg"
+            ]
+        },
+
+	"15": {
+            "name": "Battlefield 3 Xbox 360",
+            "price": 25.5,
+            "category": "Videojuegos",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Videojuegos/battlefield3xbox360.jpg"
+            ]
+        },
+
+	"16": {
+            "name": "Dark Souls Xbox 360",
+            "price": 25.5,
+            "category": "Videojuegos",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Videojuegos/darksoulsxbox360.jpg"
+            ]
+        },
+
+	"17": {
+            "name": "Fallout 3 Xbox 360",
+            "price": 25.5,
+            "category": "Videojuegos",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Videojuegos/fallout3xbox360.jpg"
+            ]
+        },
+
+	"18": {
+            "name": "Far Cry 3 PC",
+            "price": 25.5,
+            "category": "Videojuegos",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Videojuegos/farcry3pc.jpg"
+            ]
+        },
+
+	"19": {
+            "name": "Final Fantasy X PS2",
+            "price": 25.5,
+            "category": "Videojuegos",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Videojuegos/finalfantasy10ps2.jpg"
+            ]
+        },
+
+	"20": {
+            "name": "Fornite PS4",
+            "price": 25.5,
+            "category": "Videojuegos",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Videojuegos/forniteps4.jpg"
+            ]
+        },
+
+	"21": {
+            "name": "God of War PS4",
+            "price": 25.5,
+            "category": "Videojuegos",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Videojuegos/godofwarps4.jpg"
+            ]
+        },
+
+	"22": {
+            "name": "Grand Theft Auto V PS3",
+            "price": 25.5,
+            "category": "Videojuegos",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Videojuegos/grandtheftauto5ps3.jpg"
+            ]
+        },
+
+	"23": {
+            "name": "Pokemon Omega Ruby Nintendo 3DS",
+            "price": 25.5,
+            "category": "Videojuegos",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Videojuegos/pokemonomegarubynintendo3ds.jpg"
+            ]
+        },
+
+	"24": {
+            "name": "Pokemon Sol Nintendo 3DS",
+            "price": 25.5,
+            "category": "Videojuegos",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Videojuegos/pokemonsolnintendo3ds.jpg"
+            ]
+        },
+
+	"25": {
+            "name": "Super Mario Odyssey Nintendo Switch",
+            "price": 25.5,
+            "category": "Videojuegos",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Videojuegos/supermarioodysseyswitch.jpg"
+            ]
+        },
+
+	"26": {
+            "name": "Zelda Wii",
+            "price": 25.5,
+            "category": "Videojuegos",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Videojuegos/zeldawii.jpg"
+            ]
+        },
+
+	"27": {
+            "name": "Batman",
+            "price": 25.5,
+            "category": "Comics",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Comics/batman.jpg"
+            ]
+        },
+
+	"28": {
+            "name": "Batman Flash",
+            "price": 25.5,
+            "category": "Comics",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Comics/batmanflash.png"
+            ]
+        },
+
+	"29": {
+            "name": "Daredevil",
+            "price": 25.5,
+            "category": "Comics",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Comics/daredevil.jpg"
+            ]
+        },
+
+	"30": {
+            "name": "Los vengadores",
+            "price": 25.5,
+            "category": "Comics",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Comics/losvengadores.jpg"
+            ]
+        },
+
+	"31": {
+            "name": "Dragon Ball Z",
+            "price": 25.5,
+            "category": "Comics",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Comics/dragonballz.jpg"
+            ]
+        },
+
+	"32": {
+            "name": "Flash",
+            "price": 25.5,
+            "category": "Comics",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Comics/flashmarveluniverse.jpg"
+            ]
+        },
+
+	"33": {
+            "name": "Ghost Rider",
+            "price": 25.5,
+            "category": "Comics",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Comics/ghostrider.jpg"
+            ]
+        },
+
+	"34": {
+            "name": "Iron Man Ayer y Mañana",
+            "price": 25.5,
+            "category": "Comics",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Comics/ironmanayerymañana.jpg"
+            ]
+        },
+
+	"35": {
+            "name": "Los Cuatro Fantásticos",
+            "price": 25.5,
+            "category": "Comics",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Comics/loscuatrofantasticos.jpg"
+            ]
+        },
+
+	"36": {
+            "name": "Stan Lee: Cómo dibujat superhéroes",
+            "price": 25.5,
+            "category": "Comics",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Comics/stanleecomodibujarsuperheroes.jpeg"
+            ]
+        },
+
+	"37": {
+            "name": "Star Trek Green Lantern: La Guerra Espectral",
+            "price": 25.5,
+            "category": "Comics",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Comics/startrekgreenlantern laguerraespectral.jpg"
+            ]
+        },
+
+	"38": {
+            "name": "The Amazing Spiderman",
+            "price": 25.5,
+            "category": "Comics",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Comics/theamazingspiderman.jpg"
+            ]
+        },
+
+	"39": {
+            "name": "The Incredible Hulk",
+            "price": 25.5,
+            "category": "Comics",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Comics/theincrediblehulk.jpg"
+            ]
+        },
+
+	"40": {
+            "name": "Spiderman y X-men",
+            "price": 25.5,
+            "category": "Comics",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Comics/thelastmarvelteam-upspidermanandxmen.jpg"
+            ]
+        },
+
+	"41": {
+            "name": "Thor",
+            "price": 25.5,
+            "category": "Comics",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Comics/thor.jpg"
+            ]
+        },
+
+	"42": {
+            "name": "Animales Fantásticos",
+            "price": 25.5,
+            "category": "Posters",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Posters/animalesfantasticos.jpg"
+            ]
+        },
+
+	"43": {
+            "name": "Ant Man",
+            "price": 25.5,
+            "category": "Posters",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Posters/antman.jpg"
+            ]
+        },
+
+	"44": {
+            "name": "Call of Duty Black Ops",
+            "price": 25.5,
+            "category": "Posters",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Posters/callofdutyblackops.jpg"
+            ]
+        },
+
+	"45": {
+            "name": "Harry Potter y la Piedra Filosofal",
+            "price": 25.5,
+            "category": "Posters",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Posters/harrypotter.jpg"
+            ]
+        },
+
+	"46": {
+            "name": "Harry Potter y las Reliquias de la Muerte Parte 2",
+            "price": 25.5,
+            "category": "Posters",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Posters/hp.jpg"
+            ]
+        },
+
+	"47": {
+            "name": "Joker",
+            "price": 25.5,
+            "category": "Posters",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Posters/joker.jpg"
+            ]
+        },
+
+	"48": {
+            "name": "Justice League",
+            "price": 25.5,
+            "category": "Posters",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Posters/justiceleague.jpg"
+            ]
+        },
+
+	"49": {
+            "name": "Morty",
+            "price": 25.5,
+            "category": "Posters",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Posters/morty.jpg"
+            ]
+        },
+
+	"50": {
+            "name": "One piece Luffy",
+            "price": 25.5,
+            "category": "Posters",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Posters/onepiece.jpg"
+            ]
+        },
+
+	"51": {
+            "name": "Pokemon",
+            "price": 25.5,
+            "category": "Posters",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Posters/pokemon.jpg"
+            ]
+        },
+
+	"52": {
+            "name": "Spiderman",
+            "price": 25.5,
+            "category": "Posters",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Posters/spiderman.jpg"
+            ]
+        },
+
+	"53": {
+            "name": "Star Wars Join The Empire",
+            "price": 25.5,
+            "category": "Posters",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Posters/starwars.jpg"
+            ]
+        },
+
+	"54": {
+            "name": "Star Wars",
+            "price": 25.5,
+            "category": "Posters",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Posters/starwars2.png"
+            ]
+        },
+
+	"55": {
+            "name": "Star Wars Collage",
+            "price": 25.5,
+            "category": "Posters",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Posters/starwars3.jpg"
+            ]
+        },
+
+	"56": {
+            "name": "Stranger Things",
+            "price": 25.5,
+            "category": "Posters",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Posters/strangerthings.jpg"
+            ]
+        },
+
+	"57": {
+            "name": "The Iron Giant",
+            "price": 25.5,
+            "category": "Posters",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Posters/theirongiant.jpg"
+            ]
+        },
+
+	"58": {
+            "name": "Toy Story",
+            "price": 25.5,
+            "category": "Posters",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Posters/toystory.jpg"
+            ]
+        },
+
+	"59": {
+            "name": "Zelda",
+            "price": 25.5,
+            "category": "Posters",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Posters/zelda.jpg"
+            ]
+        },
+
+	"60": {
+            "name": "Iron Man Arma",
+            "price": 25.5,
+            "category": "Juguetes",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Juguetes/armaironman.jpg"
+            ]
+        },
+
+	"61": {
+            "name": "Cinturon Entrenador Pokemon",
+            "price": 25.5,
+            "category": "Juguetes",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Juguetes/cinturonentrenadorpokemon.jpg"
+            ]
+        },
+
+	"62": {
+            "name": "Coche Eléctrico Cars",
+            "price": 25.5,
+            "category": "Juguetes",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Juguetes/cochelectricocars.jpeg"
+            ]
+        },
+
+	"63": {
+            "name": "Juego de Mesa Cultura Friki",
+            "price": 25.5,
+            "category": "Juguetes",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Juguetes/culturafriki.jpg"
+            ]
+        },
+
+	"64": {
+            "name": "Peluche Escarbato Animales Fantásticos",
+            "price": 25.5,
+            "category": "Juguetes",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Juguetes/escarbatopeluche.jpg"
+            ]
+        },
+
+	"65": {
+            "name": "Escudo Capitán América",
+            "price": 25.5,
+            "category": "Juguetes",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Juguetes/escudocapitanamerica.jpg"
+            ]
+        },
+
+	"66": {
+            "name": "Halcon Milenario Lego Star Wars",
+            "price": 25.5,
+            "category": "Juguetes",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Juguetes/halcon-milenariolego.jpg"
+            ]
+        },
+
+	"67": {
+            "name": "Huevos de Juego de Tronos",
+            "price": 25.5,
+            "category": "Juguetes",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Juguetes/huevosjuegodetronos.jpeg"
+            ]
+        },
+
+	"68": {
+            "name": "Máscara de Chewbacca Star Wars",
+            "price": 25.5,
+            "category": "Juguetes",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Juguetes/mascarachewbacca.jpg"
+            ]
+        },
+
+	"69": {
+            "name": "Máscara de Deadpool",
+            "price": 25.5,
+            "category": "Juguetes",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Juguetes/mascaradeadpool.jpg"
+            ]
+        },
+
+	"70": {
+            "name": "Monopoly Juego de Tronos",
+            "price": 25.5,
+            "category": "Juguetes",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Juguetes/monopolyjuegodetronos.jpg"
+            ]
+        },
+
+	"71": {
+            "name": "Muñeco Jack Jack Los Increíbles",
+            "price": 25.5,
+            "category": "Juguetes",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Juguetes/muñecojackjack.jpeg"
+            ]
+        },
+
+	"72": {
+            "name": "Peluche Pikachu Pokemon",
+            "price": 25.5,
+            "category": "Juguetes",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Juguetes/peluchepikachu.jpg"
+            ]
+        },
+
+	"73": {
+            "name": "Peluche Togepi Pokemon",
+            "price": 25.5,
+            "category": "Juguetes",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Juguetes/peluchetogepi.jpg"
+            ]
+        },
+
+	"74": {
+            "name": "Robot BB8 Star Wars",
+            "price": 25.5,
+            "category": "Juguetes",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Juguetes/robotsw.jpg"
+            ]
+        },
+
+	"75": {
+            "name": "Trivial Harry Potter",
+            "price": 25.5,
+            "category": "Juguetes",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Juguetes/trivial-harry-potter.jpg"
+            ]
+        },
+
+	"76": {
+            "name": "Sudadera Always Harry Potter Mujer",
+            "price": 25.5,
+            "category": "Ropa",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Ropa/alwayshpmujer.jpg"
+            ]
+        },
+
+	"77": {
+            "name": "Camiseta Batman Joker",
+            "price": 25.5,
+            "category": "Ropa",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Ropa/batmanjoker.jpg"
+            ]
+        },
+
+	"78": {
+            "name": "Camiseta Beer Hombre",
+            "price": 25.5,
+            "category": "Ropa",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Ropa/beerhombre.jpg"
+            ]
+        },
+
+	"79": {
+            "name": "Camiseta Consolas Mujer",
+            "price": 25.5,
+            "category": "Ropa",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Ropa/consolasmujer.jpg"
+            ]
+        },
+
+	"80": {
+            "name": "Sudadera Flash",
+            "price": 25.5,
+            "category": "Ropa",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Ropa/flash.jpg"
+            ]
+        },
+
+	"81": {
+            "name": "Camiseta Mapa del Merodeador Harry Potter",
+            "price": 25.5,
+            "category": "Ropa",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Ropa/mapamerodeador.jpg"
+            ]
+        },
+
+	"81": {
+            "name": "Camiseta Marvel",
+            "price": 25.5,
+            "category": "Ropa",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Ropa/marvel.jpg"
+            ]
+        },
+
+	"82": {
+            "name": "Sudadera Pacman Navidad",
+            "price": 25.5,
+            "category": "Ropa",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Ropa/pacmannavidad.jpg"
+            ]
+        },
+
+	"83": {
+            "name": "Camiseta Pikachu Mujer",
+            "price": 25.5,
+            "category": "Ropa",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Ropa/pikachumujer.jpg"
+            ]
+        },
+
+	"84": {
+            "name": "Camiseta Snorlax Pokemon",
+            "price": 25.5,
+            "category": "Ropa",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Ropa/snorlax.jpg"
+            ]
+        },
+
+	"85": {
+            "name": "Vestido Vengadores Mujer",
+            "price": 25.5,
+            "category": "Ropa",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Ropa/vengadores.jpg"
+            ]
+        },
+
+	"86": {
+            "name": "Vestido Iron Man Mujer",
+            "price": 25.5,
+            "category": "Ropa",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Ropa/vestidoironman.jpg"
+            ]
+        }
+
+
+    }
+}
