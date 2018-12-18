@@ -79,13 +79,13 @@
 				<!-- Menu -->
 				<div class="wrap_menu">
 					<nav class="menu">
-						<ul class="main_menu" >
-							<li id="myDIV"  >
-								<a class="btn active" href="index.html">Home</a>
+						<ul class="main_menu">
+							<li>
+								<a href="index.html" class="colorletramenu" >Home</a>
 							</li>
 		
 							<li >
-								<a class="btn" href="#" >Categories</a>
+								<a href="#" >Categories</a>
 								<ul class="sub_menu">
 									<li><a id="selectCategory" href="product.html">Figuras</a></li>
 									<li><a href="product.html">Videojuegos</a></li>
@@ -96,35 +96,22 @@
 								</ul>
 							</li>
 		
-							<li >
-								<a class="btn" href="product.html" >Shop</a>
+							<li>
+								<a href="product.html" >Shop</a>
 							</li>
 		
-							<li >
-								<a class="btn" href="blog.html" >Blog</a>
+							<li>
+								<a href="blog.html" >Blog</a>
 							</li>
 		
-							<li >
-								<a class="btn" href="about.html" >About</a>
+							<li>
+								<a href="about.html" >About</a>
 							</li>
 		
 						</ul>
 					</nav>
 				</div>
 		
-		<script>
-			// Add active class to the current button (highlight it)
-			var header = document.getElementById("myDIV");
-			var btns = header.getElementsByClassName("btn");
-			for (var i = 0; i < btns.length; i++) {
-			  btns[i].addEventListener("click", function() {
-			  var current = document.getElementsByClassName("active");
-			  current[0].className = current[0].className.replace(" active", "");
-			  this.className += " active";
-			  });
-			}
-		</script>
-
 				<!-- Header Icon -->
 				<div class="header-icons">
 					<div class="header-wrapicon2">

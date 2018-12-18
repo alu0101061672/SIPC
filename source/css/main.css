@@ -811,11 +811,9 @@ max-width: 70%;
   padding-right: 15px;
 }
 
-.active, .btn:hover {
+.colorletramenu { 
 
-  background-color: #2BA9E1; 
-  opacity:0.75;
-
+  color: red  !important;
 
 }
 
@@ -838,13 +836,13 @@ max-width: 70%;
 li.sale-noti > a {
   color: #e65540;
 }
-/* Esto sería si se quisiera cambiar el color de la letra al pasar el ratón
+
 .main_menu > li:hover > a {
   text-decoration: none;
   border-bottom: 1px solid white;
   color:#177CBE;
  
-}*/
+}
 
 .main_menu li {
   position: relative;
