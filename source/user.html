@@ -736,7 +736,15 @@
 	<div id="dropDownSelect2"></div>
 
 
-
+	<script type="text/javascript">
+		var searcherButton = document.getElementById('searcherButton');
+		searcherButton.addEventListener('click',function(){
+			if(document.getElementById('searcherInput').value.length > 0){
+				window.location.href = "product.html";
+				sessionStorage.setItem("searchExpression",document.getElementById('searcherInput').value);
+			}
+		});
+	</script>
 	<!--===============================================================================================-->
 	<script type="text/javascript" src="vendor/jquery/jquery-3.2.1.min.js"></script>
 	<!--===============================================================================================-->

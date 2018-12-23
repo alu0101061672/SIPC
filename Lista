@@ -8,6 +8,8 @@ Sonia
 -Buscador grande subir y dejar escribir mas digitos.
 -Mostrar un mensaje principal y uno o varios submensajes que expliquen el tema de la página.
 -Añadir precio y descripción base de datos de los productos
+-Poner la misma cabecera en todos lados,
+-Hacer que los buscadores funcionen
 -Responsividad
 
 -Quitar la parte de arriba encima del logo
@@ -22,10 +24,8 @@ Jorge
 
 -XML con las imagenes que se deslizan(abajo del todo pantalla principal)
 -Formulario del usuario
--¿Hacer que los buscadores funcionen?
 -Quitar numero de pagina.*
 -Poner código javascript en archivos aparte.
--Poner la misma cabecera en todos lados
 -Cambiar cabecera de moviles también.
 -Quitar jerarquia de localizacion en detalles.*
 -Imagen en detalles.*

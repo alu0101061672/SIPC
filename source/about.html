@@ -109,8 +109,8 @@
     						<div class="col-lg-6">
       							<form class="form-horizontal my-2 my-md-0 search-form" [formGroup]="searchForm" role="form" (keyup.enter)="onSubmit()">
           							<div class="input-group">
-            								<input type="text" class="form-control" formControlName="searchText" id="searchertext" placeholder="Search..." size="20">
-            								<span class="input-group-btn fa fa-search form-control-feedback">
+            								<input id="searcherInput" type="text" class="form-control" formControlName="searchText" id="searchertext" placeholder="Search..." size="20">
+            								<span id="searcherButton" class="input-group-btn fa fa-search form-control-feedback">
      									</span>
         							</div>
       							</form>
@@ -616,7 +616,16 @@
 	<div id="dropDownSelect1"></div>
 	<div id="dropDownSelect2"></div>
 
-
+	<script type="text/javascript">
+		var searcherButton = document.getElementById('searcherButton');
+		searcherButton.addEventListener('click',function(){
+			if(document.getElementById('searcherInput').value.length > 0){
+				window.location.href = "product.html";
+				sessionStorage.setItem("searchExpression",document.getElementById('searcherInput').value);
+			}
+		});
+	</script>
+<!--===============================================================================================-->
 	<script src="js/update-cart.js"></script>
 <!--===============================================================================================-->
 	<script type="text/javascript" src="vendor/jquery/jquery-3.2.1.min.js"></script>
