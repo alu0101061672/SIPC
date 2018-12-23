@@ -100,15 +100,16 @@
 								<a href="index.html" >Home</a>
 							</li>
 		
+
 							<li >
 								<a href="#" class="colorletramenu">Categories</a>
 								<ul class="sub_menu">
-									<li><a id="selectCategory" href="product.html">Figuras</a></li>
-									<li><a href="product.html">Videojuegos</a></li>
-									<li><a href="product.html">Comics</a></li>
-									<li><a href="product.html">Posters</a></li>
-									<li><a href="product.html">Ropa</a></li>
-									<li><a href="product.html">Juguetes</a></li>
+									<li><a href="product.html" onclick="sessionStorage.setItem('selectedCategory','Figuras')">Figuras</a></li>
+									<li><a href="product.html" onclick="sessionStorage.setItem('selectedCategory','Videojuegos')">Videojuegos</a></li>
+									<li><a href="product.html" onclick="sessionStorage.setItem('selectedCategory','Comics')">Comics</a></li>
+									<li><a href="product.html" onclick="sessionStorage.setItem('selectedCategory','Posters')">Posters</a></li>
+									<li><a href="product.html" onclick="sessionStorage.setItem('selectedCategory','Ropa')">Ropa</a></li>
+									<li><a href="product.html" onclick="sessionStorage.setItem('selectedCategory','Juguetes')">Juguetes</a></li>
 								</ul>
 							</li>
 		
@@ -431,13 +432,6 @@
 							</div>
 						</div>
 
-						<div class="search-product pos-relative bo4 of-hidden">
-							<input class="s-text7 size6 p-l-23 p-r-50" type="text" name="search-product" placeholder="Search Products...">
-
-							<button class="flex-c-m size5 ab-r-m color2 color0-hov trans-0-4">
-								<i class="fs-12 fa fa-search" aria-hidden="true"></i>
-							</button>
-						</div>
 					</div>
 				</div>
 
