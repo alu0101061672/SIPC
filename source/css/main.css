@@ -646,16 +646,8 @@ iframe {
 
 .containersearcher {
 
-  max-width: 600px;
-  width: 700px;
-  height: 27px;
-  padding-right: 110px;  
+  max-width: 400px;
 
-}
-
-.productsearcher{
-
-  padding-right: 133px;
 }
 
 .fila {

@@ -1054,6 +1054,18 @@
             "pictures": [
                 "./images/Fotos_Productos/Ropa/vestidoironman.jpg"
             ]
+        },
+
+	"87": {
+            "name": "Novios Harry Potter",
+            "price": 25.5,
+            "category": "Figuras",
+            "description": "nasjnd",
+            "offer": false,
+            "reduction": 0.0,
+            "pictures": [
+                "./images/Fotos_Productos/Figuras/figuranovioshp.jpg"
+            ]
         }
 
 
