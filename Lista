@@ -3,19 +3,36 @@ Cosas por hacer
 Sonia
 
 -Metadatos
+-Poner icono.
+-Poner título.
+-Buscador grande subir y dejar escribir mas digitos.
+-Mostrar un mensaje principal y uno o varios submensajes que expliquen el tema de la página.
+-Añadir precio y descripción base de datos de los productos
+-Responsividad
+
+-Quitar la parte de arriba encima del logo
 
 Basilio
 
+-Terminar usuario
 -Google Analytics
+-Responsividad
 
 Jorge
 
 -XML con las imagenes que se deslizan(abajo del todo pantalla principal)
-
--Añadir precio y descripción base de datos de los productos
--Quitar la parte de arriba encima del logo
--Que el perfil de usuario funcione
--En la pestaña del carrito quitar que haya dos formas de añadir más artículos(dejar solo una)
+-Formulario del usuario
 -¿Hacer que los buscadores funcionen?
--Si solo se va a ver una de las pestañas cuando se ven los productos quitar el dos y solo mostrar el 1
+-Quitar numero de pagina.*
+-Poner código javascript en archivos aparte.
+-Poner la misma cabecera en todos lados
+-Cambiar cabecera de moviles también.
+-Quitar jerarquia de localizacion en detalles.*
+-Imagen en detalles.
+-Quitar descripción inferior.
+-Responsividad
 
+-Marcar filtros seleccionados.
+-En la pestaña del carrito quitar que haya dos formas de añadir más artículos(dejar solo una)
+-Checkear ambos spinners seleccionados.
+-Carrito muestra mensaje cuando no hay productos.
