@@ -329,24 +329,11 @@
 		<div class="flex-w flex-sb">
 			<div class="w-size13 p-t-30 respon5">
 				<div class="wrap-slick3 flex-sb flex-w">
-					<div class="wrap-slick3-dots"></div>
 
-					<div id="pictures" class="slick3">
+					<div class="slick3">
 						<div class="item-slick3" data-thumb="images/thumb-item-01.jpg">
 							<div class="measures">
-								<img src="images/Fotos_Productos/CamisetaHombreGuardianesGalaxia/Frontal.jpg" alt="IMG-PRODUCT">
-							</div>
-						</div>
-
-						<div class="item-slick3" data-thumb="images/thumb-item-02.jpg">
-							<div class="measures">
-								<img src="images/product-detail-02.jpg" alt="IMG-PRODUCT">
-							</div>
-						</div>
-
-						<div class="item-slick3" data-thumb="images/thumb-item-03.jpg">
-							<div class="measures">
-								<img src="images/product-detail-03.jpg" alt="IMG-PRODUCT">
+								<img id="picture" src="images/Fotos_Productos/CamisetaHombreGuardianesGalaxia/Frontal.jpg" alt="IMG-PRODUCT">
 							</div>
 						</div>
 					</div>
@@ -362,7 +349,7 @@
 					$22
 				</span>
 
-				<p class="s-text8 p-t-10">
+				<p id="description" class="s-text8 p-t-10">
 					Nulla eget sem vitae eros pharetra viverra. Nam vitae luctus ligula. Mauris consequat ornare feugiat.
 				</p>
 
@@ -936,6 +923,7 @@
 			document.getElementById("name").innerHTML = changedPost.name;
 			document.getElementById("category").innerHTML = 'Categories: ' + changedPost.category;
 			document.getElementById("price").innerHTML = changedPost.price + "€";
+			document.getElementById("picture").setAttribute("src", changedPost.pictures);
 			document.getElementById('add-selected-product').onclick = function () {
 				addToCart(parseInt(productId), parseInt(document.getElementById('quantity-input').value), "a", changedPost.name, changedPost.price);
 			};
