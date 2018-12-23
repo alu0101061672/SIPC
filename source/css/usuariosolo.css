@@ -33,12 +33,17 @@
 }
 
 .rectangulofrontal {
-	width: 900px;
 	position: relative;
 	background: white;
 	margin-top: 50px;
 	margin-bottom: 50px;
 	padding: 0px !important;
+}
+
+@media only screen and (max-width: 720px) {
+    .profile-img {
+        display: none;
+    }
 }
 
 .profile-img {
@@ -67,7 +72,7 @@
 	width: 480px;
 	margin-left: 5%;
 	margin-top: -4%;
-	margin-bottom: 10%
+	margin-bottom: 10%;
 	background-color: #E7E5E5;
 }
 
