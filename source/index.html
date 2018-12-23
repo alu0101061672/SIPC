@@ -87,12 +87,12 @@
 							<li >
 								<a href="#" >Categories</a>
 								<ul class="sub_menu">
-									<li><a id="selectCategory" href="product.html">Figuras</a></li>
-									<li><a href="product.html">Videojuegos</a></li>
-									<li><a href="product.html">Comics</a></li>
-									<li><a href="product.html">Posters</a></li>
-									<li><a href="product.html">Ropa</a></li>
-									<li><a href="product.html">Juguetes</a></li>
+									<li><a href="product.html" onclick="sessionStorage.setItem('selectedCategory','Figuras')">Figuras</a></li>
+									<li><a href="product.html" onclick="sessionStorage.setItem('selectedCategory','Videojuegos')">Videojuegos</a></li>
+									<li><a href="product.html" onclick="sessionStorage.setItem('selectedCategory','Comics')">Comics</a></li>
+									<li><a href="product.html" onclick="sessionStorage.setItem('selectedCategory','Posters')">Posters</a></li>
+									<li><a href="product.html" onclick="sessionStorage.setItem('selectedCategory','Ropa')">Ropa</a></li>
+									<li><a href="product.html" onclick="sessionStorage.setItem('selectedCategory','Juguetes')">Juguetes</a></li>
 								</ul>
 							</li>
 		
@@ -962,13 +962,6 @@
 	</script>
 <!--===============================================================================================-->
 	<script src="js/update-cart.js"></script>
-<!--===============================================================================================-->
-	<script type="text/javascript">
-		function selectCategory (){
-			sessionStorage.setItem("selectedCategory","Figuras");
-		}
-		document.getElementById('selectCategory').addEventListener('click', selectCategory, false);
-	</script>
 <!--===============================================================================================-->
 	<script src="https://www.gstatic.com/firebasejs/5.6.0/firebase.js"></script>
 	<script>

@@ -435,49 +435,6 @@
 							</div>
 						</div>
 
-						<div class="filter-color p-t-22 p-b-50 bo3">
-							<div class="m-text15 p-b-12">
-								Color
-							</div>
-
-							<ul class="flex-w">
-								<li class="m-r-10">
-									<input class="checkbox-color-filter" id="color-filter1" type="checkbox" name="color-filter1">
-									<label class="color-filter color-filter1" for="color-filter1"></label>
-								</li>
-
-								<li class="m-r-10">
-									<input class="checkbox-color-filter" id="color-filter2" type="checkbox" name="color-filter2">
-									<label class="color-filter color-filter2" for="color-filter2"></label>
-								</li>
-
-								<li class="m-r-10">
-									<input class="checkbox-color-filter" id="color-filter3" type="checkbox" name="color-filter3">
-									<label class="color-filter color-filter3" for="color-filter3"></label>
-								</li>
-
-								<li class="m-r-10">
-									<input class="checkbox-color-filter" id="color-filter4" type="checkbox" name="color-filter4">
-									<label class="color-filter color-filter4" for="color-filter4"></label>
-								</li>
-
-								<li class="m-r-10">
-									<input class="checkbox-color-filter" id="color-filter5" type="checkbox" name="color-filter5">
-									<label class="color-filter color-filter5" for="color-filter5"></label>
-								</li>
-
-								<li class="m-r-10">
-									<input class="checkbox-color-filter" id="color-filter6" type="checkbox" name="color-filter6">
-									<label class="color-filter color-filter6" for="color-filter6"></label>
-								</li>
-
-								<li class="m-r-10">
-									<input class="checkbox-color-filter" id="color-filter7" type="checkbox" name="color-filter7">
-									<label class="color-filter color-filter7" for="color-filter7"></label>
-								</li>
-							</ul>
-						</div>
-
 						<div class="search-product pos-relative bo4 of-hidden">
 							<input class="s-text7 size6 p-l-23 p-r-50" type="text" name="search-product" placeholder="Search Products...">
 
@@ -490,20 +447,9 @@
 
 				<div class="col-sm-6 col-md-8 col-lg-9 p-b-50">
 					<!--  -->
-					<div class="flex-sb-m flex-w p-b-35">
-						<div class="flex-w">
-							<div class="rs2-select2 bo4 of-hidden w-size12 m-t-5 m-b-5 m-r-10">
-								<select class="selection-2" name="sorting">
-									<option>Default Sorting</option>
-									<option>Release</option>
-									<option>Price: low to high</option>
-									<option>Price: high to low</option>
-								</select>
-							</div>
-						</div>
-
-						<span class="s-text8 p-t-5 p-b-5">
-							Showing 1–12 of 16 results
+					<div class="p-b-20">
+						<span id="results-quantity" class="s-text8 p-t-5 p-b-5">
+							Showing 16 results
 						</span>
 					</div>
 
@@ -877,6 +823,8 @@
 			sessionStorage.setItem("selectedCategory", 'All')
 
 		function filterProducts(category, lower, higher, searchExpression) {
+			var resultsQuantity = 0;
+			document.getElementById('results-quantity').innerText = "Showing 0 results";
 			if (searchExpression == null) searchExpression = "";
 			var products = document.getElementById("products");
 			while (products.lastChild) {
@@ -884,7 +832,6 @@
 			}
 			if (category != "All") {
 				firebase.database().ref("products").orderByChild("category").equalTo(category).on("child_added", function (snapshot, prevChildKey) {
-					debugger;
 					if (snapshot.child("price").val() >= lower && snapshot.child("price").val() <= higher && snapshot.child("name").val().search(searchExpression) != -1) {
 						var div = document.createElement('div');
 						div.className = 'col-sm-12 col-md-6 col-lg-4 p-b-50';
@@ -895,7 +842,7 @@
 							<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4"><i class="icon-wishlist icon_heart_alt"\
 							aria-hidden="true"></i><i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i></a>\
 							<div class="block2-btn-addcart w-size1 trans-0-4">\
-							<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" onclick="addToCart(' + snapshot.key + ',' + 1 + ',\'images/Fotos_productos/CamisetaMario/frontal.jpg\',\'' + snapshot.child("name").val() + '\',' + snapshot.child("price").val() + ')">Add to Cart</button>\
+							<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" onclick="addToCart(' + snapshot.key + ',' + 1 + ',\'' + snapshot.child("pictures").child("0").val() + '\',\'' + snapshot.child("name").val() + '\',' + snapshot.child("price").val() + ')">Add to Cart</button>\
 							</div>\
 							</div>\
 							</div>\
@@ -905,6 +852,8 @@
 							</div>\
 							</div>';
 						document.getElementById('products').appendChild(div);
+						resultsQuantity += 1;
+						document.getElementById('results-quantity').innerText = "Showing " + resultsQuantity + " results";
 					}
 				});
 			} else {
@@ -919,7 +868,7 @@
 							<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4"><i class="icon-wishlist icon_heart_alt"\
 							aria-hidden="true"></i><i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i></a>\
 							<div class="block2-btn-addcart w-size1 trans-0-4">\
-							<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" onclick="addToCart(' + snapshot.key + ',' + 1 + ',\'images/Fotos_productos/CamisetaMario/frontal.jpg\',\'' + snapshot.child("name").val() + '\',' + snapshot.child("price").val() + ')">Add to Cart</button>\
+							<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" onclick="addToCart(' + snapshot.key + ',' + 1 + ',\'' + snapshot.child("pictures").child("0").val() + '\',\'' + snapshot.child("name").val() + '\',' + snapshot.child("price").val() + ')">Add to Cart</button>\
 							</div>\
 							</div>\
 							</div>\
@@ -929,6 +878,8 @@
 							</div>\
 							</div>';
 						document.getElementById('products').appendChild(div);
+						resultsQuantity += 1;
+						document.getElementById('results-quantity').innerText = "Showing " + resultsQuantity + " results";
 					}
 				});
 			}
