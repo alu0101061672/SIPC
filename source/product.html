@@ -502,8 +502,8 @@
 							</div>
 						</div>
 
-						<span class="s-text8 p-t-5 p-b-5">
-							Showing 1–12 of 16 results
+						<span id="results-quantity" class="s-text8 p-t-5 p-b-5">
+							Showing 16 results
 						</span>
 					</div>
 
@@ -877,6 +877,8 @@
 			sessionStorage.setItem("selectedCategory", 'All')
 
 		function filterProducts(category, lower, higher, searchExpression) {
+			var resultsQuantity = 0;
+			document.getElementById('results-quantity').innerText = "Showing 0 results";
 			if (searchExpression == null) searchExpression = "";
 			var products = document.getElementById("products");
 			while (products.lastChild) {
@@ -884,7 +886,6 @@
 			}
 			if (category != "All") {
 				firebase.database().ref("products").orderByChild("category").equalTo(category).on("child_added", function (snapshot, prevChildKey) {
-					debugger;
 					if (snapshot.child("price").val() >= lower && snapshot.child("price").val() <= higher && snapshot.child("name").val().search(searchExpression) != -1) {
 						var div = document.createElement('div');
 						div.className = 'col-sm-12 col-md-6 col-lg-4 p-b-50';
@@ -905,6 +906,8 @@
 							</div>\
 							</div>';
 						document.getElementById('products').appendChild(div);
+						resultsQuantity += 1;
+						document.getElementById('results-quantity').innerText = "Showing " + resultsQuantity + " results";
 					}
 				});
 			} else {
@@ -929,6 +932,8 @@
 							</div>\
 							</div>';
 						document.getElementById('products').appendChild(div);
+						resultsQuantity += 1;
+						document.getElementById('results-quantity').innerText = "Showing " + resultsQuantity + " results";
 					}
 				});
 			}
