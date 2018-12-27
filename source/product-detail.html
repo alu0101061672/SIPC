@@ -894,15 +894,7 @@
 	<div id="dropDownSelect1"></div>
 	<div id="dropDownSelect2"></div>
 
-	<script type="text/javascript">
-		var searcherButton = document.getElementById('searcherButton');
-		searcherButton.addEventListener('click',function(){
-			if(document.getElementById('searcherInput').value.length > 0){
-				window.location.href = "product.html";
-				sessionStorage.setItem("searchExpression",document.getElementById('searcherInput').value);
-			}
-		});
-	</script>
+	<script src="js/searcher.js"></script>
 	<!--===============================================================================================-->
 	<script src="js/update-cart.js"></script>
 	<!--===============================================================================================-->
@@ -912,33 +904,9 @@
 	<!-- Add additional services that you want to use -->
 	<script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-auth.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-database.js"></script>
-	<script>
-		// Initialize Firebase
-		var config = {
-			apiKey: "AIzaSyCUYPyKMWSCx6vOSxTj2ua0nyeW-35nHRA",
-			authDomain: "frikiya-66687.firebaseapp.com",
-			databaseURL: "https://frikiya-66687.firebaseio.com",
-			projectId: "frikiya-66687",
-			storageBucket: "frikiya-66687.appspot.com",
-			messagingSenderId: "116404059954"
-		};
-		firebase.initializeApp(config);
-	</script>
+	<script src="js/firebase.js"></script>
 	<!--===============================================================================================-->
-	<script type="text/javascript">
-		var productId = JSON.parse(sessionStorage.getItem("selectedProductId"));
-		firebase.database().ref("products/" + productId).on("value", function (snap) {
-			var changedPost = snap.val();
-			document.getElementById("description").innerHTML = changedPost.description;
-			document.getElementById("name").innerHTML = changedPost.name;
-			document.getElementById("category").innerHTML = 'Categories: ' + changedPost.category;
-			document.getElementById("price").innerHTML = changedPost.price + "€";
-			document.getElementById("picture").setAttribute("src", changedPost.pictures);
-			document.getElementById('add-selected-product').onclick = function () {
-				addToCart(parseInt(productId), parseInt(document.getElementById('quantity-input').value), "a", changedPost.name, changedPost.price);
-			};
-		});
-	</script>
+	<script src="js/initialize-details.js"></script>
 	<!--===============================================================================================-->
 	<script type="text/javascript" src="vendor/jquery/jquery-3.2.1.min.js"></script>
 	<!--===============================================================================================-->
