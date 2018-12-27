@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Home</title>
+	<title> FrikiYa! </title>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Jorge González,Basilio Gómez, Sonia Díaz">
+	<meta name="description" content="Tienda de merchandaising friki para comprar distintas categorías de productos frikis">
+
 <!--===============================================================================================-->
-	<link rel="icon" type="image/png" href="images/icons/favicon.png"/>
+	<link rel="stylesheet" href="css/frikiya.css">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/image.png"/>
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
 <!--===============================================================================================-->
@@ -277,17 +283,20 @@
 		<div class="wrap-slick1">
 			<div class="slick1">
 				<div class="item-slick1 item1-slick1" style="background-image: url(images/principal.png);">
-					<div class="flex-col-c-m p-t-150">
-						<span class="caption1-slide1 m-text1 t-center animated visible-false m-b-15" data-appear="fadeInDown estructuraprincipal">
-							Encuentre lo que desee
-						</span>
-
+					<div class="flex-col-c-m centrarmain">
+						<p class="caption1-slide1 m-text1 t-center animated visible-false m-b-15" data-appear="fadeInDown estructuraprincipal">
+							Tienda para merchandaising friki 
+						</p>
+						<p class="caption1-slide1 m-text1 t-center animated visible-false m-b-15" data-appear="fadeInDown estructuraprincipal">
+							Encuentre lo que desee 
+						</p>
+						
  				<!-- Buscador -->
 				
-    					<div class="col-lg-6">
+    					<div class="col-lg-6 bajarbuscador">
       						<form class="search-form" [formGroup]="searchForm" >
           						<center><div class="gruposearcher">
-            							<input id="searcherInput" type="text" class="controlsearcher" formControlName="searchText" id="searchertext" placeholder="Search..." size="20">
+            							<input id="searcherInput" type="text" class="controlsearcher limitsearchermain" formControlName="searchText" id="searchertext" placeholder="Search..." size="20">
             							<span id="searcherButton" class="input-group-btn fa fa-search control-feedback"></span>
         						</div></center>
       						</form>

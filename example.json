@@ -2,9 +2,9 @@
     "products": {
         "0": {
             "name": "Camiseta Mario",
-            "price": 16.7,
+            "price": 15.5,
             "category": "Ropa",
-            "description": "nasjnd",
+            "description": "Camiseta de manga corta de alta calidad 100% algodón haciendo referencia al personaje de Mario",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -14,9 +14,9 @@
 
         "1": {
             "name": "Sudadera Harry Potter",
-            "price": 16.7,
+            "price": 24.99,
             "category": "Ropa",
-            "description": "nasjnd",
+            "description": "Sudadera con capucha con mangas ajustadas de alta calidad 100% algodón con el escudo del colegio Hogwarts Harry Potter",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -26,9 +26,9 @@
 
         "2": {
             "name": "Camiseta Star Wars",
-            "price": 16.7,
+            "price": 17.5,
             "category": "Ropa",
-            "description": "nasjnd",
+            "description": "Camiseta de manga corta y ancha de alta calidad 100% algodón de un soldado imperial de Star Wars",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -38,9 +38,9 @@
 
         "3": {
             "name": "Camiseta Spiderman",
-            "price": 25.5,
+            "price": 15.5,
             "category": "Ropa",
-            "description": "nasjnd",
+            "description": "Camiseta de manga corta de alta calidad 100% algodón con araña de Spiderman",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -50,9 +50,9 @@
 
 	"4": {
             "name": "Camiseta Capitán América",
-            "price": 25.5,
+            "price": 15.5,
             "category": "Ropa",
-            "description": "nasjnd",
+            "description": "Camiseta de manga corta de alta calidad 100% algodón con el escudo del Capitán América",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -62,9 +62,9 @@
 
 	"5": {
             "name": "Khal Drogo",
-            "price": 25.5,
+            "price": 9.95,
             "category": "Figuras",
-            "description": "nasjnd",
+            "description": "Figura de 38x15cm del personaje de juego de tronos Khal Drogo con material de calidad",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -74,9 +74,9 @@
 
 	"6": {
             "name": "Celula Dragon Ball",
-            "price": 25.5,
+            "price": 6.25,
             "category": "Figuras",
-            "description": "nasjnd",
+            "description": "Figura POP del personaje de Dragon Ball Celula con material de calidad",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -86,9 +86,9 @@
 
 	"7": {
             "name": "Goku",
-            "price": 25.5,
+            "price": 11.99,
             "category": "Figuras",
-            "description": "nasjnd",
+            "description": "Figura POP del personaje de Dragon Ball Goku con material de calidad",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -98,9 +98,9 @@
 
 	"8": {
             "name": "Rick Morty teacher",
-            "price": 25.5,
+            "price": 4.7,
             "category": "Figuras",
-            "description": "nasjnd",
+            "description": "Figura POP del personaje de Rick y Morty Teacher Rick con material de calidad",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -110,9 +110,9 @@
 
 	"9": {
             "name": "Danny Zuko Grease",
-            "price": 25.5,
+            "price": 8.95,
             "category": "Figuras",
-            "description": "nasjnd",
+            "description": "Figura POP del personaje de Grease Danny con material de calidad",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -122,9 +122,9 @@
 
 	"10": {
             "name": "Baby Groot Christmas",
-            "price": 25.5,
+            "price": 9.40,
             "category": "Figuras",
-            "description": "nasjnd",
+            "description": "Figura POP del personaje de Guardianes de la Galaxia Baby Groot con material de calidad",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -134,9 +134,9 @@
 
 	"11": {
             "name": "Hermione Granger Harry Potter",
-            "price": 25.5,
+            "price": 12.99,
             "category": "Figuras",
-            "description": "nasjnd",
+            "description": "Figura POP del personaje de Harry Potter Hermione Granger con material de calidad",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -146,9 +146,9 @@
 
 	"12": {
             "name": "Negan The Walking Dead",
-            "price": 25.5,
+            "price": 12.99,
             "category": "Figuras",
-            "description": "nasjnd",
+            "description": "Figura POP del personaje de The Walking Dead Negan con Lucille con material de calidad",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -158,9 +158,9 @@
 
 	"13": {
             "name": "Ron Weasley Harry Potter",
-            "price": 25.5,
+            "price": 12.99,
             "category": "Figuras",
-            "description": "nasjnd",
+            "description": "Figura POP del personaje de Harry Potter Ronald Weasley con material de calidad",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -170,9 +170,9 @@
 
 	"14": {
             "name": "Scorpion Mortal Kombat",
-            "price": 25.5,
+            "price": 6.65,
             "category": "Figuras",
-            "description": "nasjnd",
+            "description": "Figura de 26x12cm del personaje de Mortal Kombat Scorpion con material de calidad",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -182,9 +182,9 @@
 
 	"15": {
             "name": "Battlefield 3 Xbox 360",
-            "price": 25.5,
+            "price": 60.98,
             "category": "Videojuegos",
-            "description": "nasjnd",
+            "description": "Juego de disparos en primera persona(FPS) cooperativo online",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -194,9 +194,9 @@
 
 	"16": {
             "name": "Dark Souls Xbox 360",
-            "price": 25.5,
+            "price": 72.34,
             "category": "Videojuegos",
-            "description": "nasjnd",
+            "description": "Juego open world online cooperativo",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -206,9 +206,9 @@
 
 	"17": {
             "name": "Fallout 3 Xbox 360",
-            "price": 25.5,
+            "price": 35.9,
             "category": "Videojuegos",
-            "description": "nasjnd",
+            "description": "Juego de rol",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -218,9 +218,9 @@
 
 	"18": {
             "name": "Far Cry 3 PC",
-            "price": 25.5,
+            "price": 47.98,
             "category": "Videojuegos",
-            "description": "nasjnd",
+            "description": "Juego de acción. PEGI 18 años",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -230,9 +230,9 @@
 
 	"19": {
             "name": "Final Fantasy X PS2",
-            "price": 25.5,
+            "price": 32.55,
             "category": "Videojuegos",
-            "description": "nasjnd",
+            "description": "Juego de rol. PEGI 12 años",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -242,9 +242,9 @@
 
 	"20": {
             "name": "Fornite PS4",
-            "price": 25.5,
+            "price": 85.25,
             "category": "Videojuegos",
-            "description": "nasjnd",
+            "description": "Juego de acción online cooperativo multijugador",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -254,9 +254,9 @@
 
 	"21": {
             "name": "God of War PS4",
-            "price": 25.5,
+            "price": 74.32,
             "category": "Videojuegos",
-            "description": "nasjnd",
+            "description": "Juego de acción. Sony",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -266,9 +266,9 @@
 
 	"22": {
             "name": "Grand Theft Auto V PS3",
-            "price": 25.5,
+            "price": 57.64,
             "category": "Videojuegos",
-            "description": "nasjnd",
+            "description": "Juego de acción. PEGI 18 años",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -278,9 +278,9 @@
 
 	"23": {
             "name": "Pokemon Omega Ruby Nintendo 3DS",
-            "price": 25.5,
+            "price": 42.65,
             "category": "Videojuegos",
-            "description": "nasjnd",
+            "description": "Juego de rol online multijugador individual",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -290,9 +290,9 @@
 
 	"24": {
             "name": "Pokemon Sol Nintendo 3DS",
-            "price": 25.5,
+            "price": 42.65,
             "category": "Videojuegos",
-            "description": "nasjnd",
+            "description": "Juego de rol online multijugador individual",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -302,9 +302,9 @@
 
 	"25": {
             "name": "Super Mario Odyssey Nintendo Switch",
-            "price": 25.5,
+            "price": 69.99,
             "category": "Videojuegos",
-            "description": "nasjnd",
+            "description": "Juego de plataformas Switch. Nintendo individual",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -314,9 +314,9 @@
 
 	"26": {
             "name": "Zelda Wii",
-            "price": 25.5,
+            "price": 28.74,
             "category": "Videojuegos",
-            "description": "nasjnd",
+            "description": "Juego de acción individual",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -326,9 +326,9 @@
 
 	"27": {
             "name": "Batman",
-            "price": 25.5,
+            "price": 20.00,
             "category": "Comics",
-            "description": "nasjnd",
+            "description": "Comic de alta calidad que narra la historia de Batman",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -338,9 +338,9 @@
 
 	"28": {
             "name": "Batman Flash",
-            "price": 25.5,
+            "price": 14.5,
             "category": "Comics",
-            "description": "nasjnd",
+            "description": "Comic de alta calidad que narra la historia de Batman y Flash",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -350,9 +350,9 @@
 
 	"29": {
             "name": "Daredevil",
-            "price": 25.5,
+            "price": 12.5,
             "category": "Comics",
-            "description": "nasjnd",
+            "description": "Comic de alta calidad que narra la historia de Daredevil",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -362,9 +362,9 @@
 
 	"30": {
             "name": "Los vengadores",
-            "price": 25.5,
+            "price": 48.9,
             "category": "Comics",
-            "description": "nasjnd",
+            "description": "Comic de alta calidad que narra la historia de Los Vengadores",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -374,9 +374,9 @@
 
 	"31": {
             "name": "Dragon Ball Z",
-            "price": 25.5,
+            "price": 31.5,
             "category": "Comics",
-            "description": "nasjnd",
+            "description": "Comic de alta calidad que narra la historia de Dragon Ball Z",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -386,9 +386,9 @@
 
 	"32": {
             "name": "Flash",
-            "price": 25.5,
+            "price": 18.35,
             "category": "Comics",
-            "description": "nasjnd",
+            "description": "Comic de alta calidad que narra la historia de Flash",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -398,9 +398,9 @@
 
 	"33": {
             "name": "Ghost Rider",
-            "price": 25.5,
+            "price": 11.95,
             "category": "Comics",
-            "description": "nasjnd",
+            "description": "Comic de alta calidad que narra la historia de Ghost Rider",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -410,9 +410,9 @@
 
 	"34": {
             "name": "Iron Man Ayer y Mañana",
-            "price": 25.5,
+            "price": 20.65,
             "category": "Comics",
-            "description": "nasjnd",
+            "description": "Comic de alta calidad que narra la historia de Iron Man",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -422,9 +422,9 @@
 
 	"35": {
             "name": "Los Cuatro Fantásticos",
-            "price": 25.5,
+            "price": 18.29,
             "category": "Comics",
-            "description": "nasjnd",
+            "description": "Comic de alta calidad que narra la historia de Los Cuatro Fantásticos",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -433,10 +433,10 @@
         },
 
 	"36": {
-            "name": "Stan Lee: Cómo dibujat superhéroes",
-            "price": 25.5,
+            "name": "Stan Lee: Cómo dibujar superhéroes",
+            "price": 40.85,
             "category": "Comics",
-            "description": "nasjnd",
+            "description": "Comic de alta calidad que narra la historia de Stan Lee sobre cómo dibujar superhéroes",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -446,9 +446,9 @@
 
 	"37": {
             "name": "Star Trek Green Lantern: La Guerra Espectral",
-            "price": 25.5,
+            "price": 10.7,
             "category": "Comics",
-            "description": "nasjnd",
+            "description": "Comic de alta calidad que narra la historia de Star Trek y Green Lantern y La Guerra Espectral",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -458,9 +458,9 @@
 
 	"38": {
             "name": "The Amazing Spiderman",
-            "price": 25.5,
+            "price": 36.35,
             "category": "Comics",
-            "description": "nasjnd",
+            "description": "Comic de alta calidad que narra la historia de The Amazing Spiderman",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -470,9 +470,9 @@
 
 	"39": {
             "name": "The Incredible Hulk",
-            "price": 25.5,
+            "price": 37.8,
             "category": "Comics",
-            "description": "nasjnd",
+            "description": "Comic de alta calidad que narra la historia de The Incredible Hulk",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -482,9 +482,9 @@
 
 	"40": {
             "name": "Spiderman y X-men",
-            "price": 25.5,
+            "price": 17.4,
             "category": "Comics",
-            "description": "nasjnd",
+            "description": "Comic de alta calidad que narra la historia de Spiderman y X-men",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -494,9 +494,9 @@
 
 	"41": {
             "name": "Thor",
-            "price": 25.5,
+            "price": 50.1,
             "category": "Comics",
-            "description": "nasjnd",
+            "description": "Comic de alta calidad que narra la historia de Thor",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -506,9 +506,9 @@
 
 	"42": {
             "name": "Animales Fantásticos",
-            "price": 25.5,
+            "price": 27.5,
             "category": "Posters",
-            "description": "nasjnd",
+            "description": "Poster de alta calidad 50x30cm de Animales Fantásticos",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -518,9 +518,9 @@
 
 	"43": {
             "name": "Ant Man",
-            "price": 25.5,
+            "price": 13.2,
             "category": "Posters",
-            "description": "nasjnd",
+            "description": "Poster de alta calidad 50x30cm de Ant Man",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -530,9 +530,9 @@
 
 	"44": {
             "name": "Call of Duty Black Ops",
-            "price": 25.5,
+            "price": 10.98,
             "category": "Posters",
-            "description": "nasjnd",
+            "description": "Poster de alta calidad 50x30cm de Call of Duty Black Ops",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -542,9 +542,9 @@
 
 	"45": {
             "name": "Harry Potter y la Piedra Filosofal",
-            "price": 25.5,
+            "price": 22.5,
             "category": "Posters",
-            "description": "nasjnd",
+            "description": "Poster de alta calidad 50x30cm de Harry Potter y la Piedra Filosofal",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -554,9 +554,9 @@
 
 	"46": {
             "name": "Harry Potter y las Reliquias de la Muerte Parte 2",
-            "price": 25.5,
+            "price": 24.95,
             "category": "Posters",
-            "description": "nasjnd",
+            "description": "Poster de alta calidad 50x30cm de Harry Potter y las Reliquias de la Muerte Parte 2",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -566,9 +566,9 @@
 
 	"47": {
             "name": "Joker",
-            "price": 25.5,
+            "price": 12.65,
             "category": "Posters",
-            "description": "nasjnd",
+            "description": "Poster de alta calidad 50x30cm del Joker",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -578,9 +578,9 @@
 
 	"48": {
             "name": "Justice League",
-            "price": 25.5,
+            "price": 14.99,
             "category": "Posters",
-            "description": "nasjnd",
+            "description": "Poster de alta calidad 50x30cm de la Liga de la Justicia",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -590,9 +590,9 @@
 
 	"49": {
             "name": "Morty",
-            "price": 25.5,
+            "price": 9.7,
             "category": "Posters",
-            "description": "nasjnd",
+            "description": "Poster de alta calidad 50x30cm de Morty",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -601,10 +601,10 @@
         },
 
 	"50": {
-            "name": "One piece Luffy",
-            "price": 25.5,
+            "name": "One Piece Luffy",
+            "price": 18.3,
             "category": "Posters",
-            "description": "nasjnd",
+            "description": "Poster de alta calidad 50x30cm de One Piece Luffy",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -614,9 +614,9 @@
 
 	"51": {
             "name": "Pokemon",
-            "price": 25.5,
+            "price":8.75,
             "category": "Posters",
-            "description": "nasjnd",
+            "description": "Poster de alta calidad 50x30cm de Pokemon",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -626,9 +626,9 @@
 
 	"52": {
             "name": "Spiderman",
-            "price": 25.5,
+            "price": 13.2,
             "category": "Posters",
-            "description": "nasjnd",
+            "description": "Poster de alta calidad 50x30cm de Spiderman",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -638,9 +638,9 @@
 
 	"53": {
             "name": "Star Wars Join The Empire",
-            "price": 25.5,
+            "price": 19.99,
             "category": "Posters",
-            "description": "nasjnd",
+            "description": "Poster de alta calidad 50x30cm de Star Wars Join The Empire",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -650,9 +650,9 @@
 
 	"54": {
             "name": "Star Wars",
-            "price": 25.5,
+            "price": 21.7,
             "category": "Posters",
-            "description": "nasjnd",
+            "description": "Poster de alta calidad 50x30cm de Star Wars",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -662,9 +662,9 @@
 
 	"55": {
             "name": "Star Wars Collage",
-            "price": 25.5,
+            "price": 30.4,
             "category": "Posters",
-            "description": "nasjnd",
+            "description": "Poster de alta calidad 50x30cm de Star Wars Collage",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -674,9 +674,9 @@
 
 	"56": {
             "name": "Stranger Things",
-            "price": 25.5,
+            "price": 14.3,
             "category": "Posters",
-            "description": "nasjnd",
+            "description": "Poster de alta calidad 50x30cm de Stranger Things",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -686,9 +686,9 @@
 
 	"57": {
             "name": "The Iron Giant",
-            "price": 25.5,
+            "price": 4.99,
             "category": "Posters",
-            "description": "nasjnd",
+            "description": "Poster de alta calidad 50x30cm de The Iron Giant",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -698,9 +698,9 @@
 
 	"58": {
             "name": "Toy Story",
-            "price": 25.5,
+            "price": 7.8,
             "category": "Posters",
-            "description": "nasjnd",
+            "description": "Poster de alta calidad 50x30cm de Toy Story",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -710,9 +710,9 @@
 
 	"59": {
             "name": "Zelda",
-            "price": 25.5,
+            "price": 11.5,
             "category": "Posters",
-            "description": "nasjnd",
+            "description": "Poster de alta calidad 50x30cm de Zelda",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -722,9 +722,9 @@
 
 	"60": {
             "name": "Iron Man Arma",
-            "price": 25.5,
+            "price": 50.4,
             "category": "Juguetes",
-            "description": "nasjnd",
+            "description": "Increíble arma de Iron Man para divertise",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -734,9 +734,9 @@
 
 	"61": {
             "name": "Cinturon Entrenador Pokemon",
-            "price": 25.5,
+            "price": 65.89,
             "category": "Juguetes",
-            "description": "nasjnd",
+            "description": "Increíble cinturón de entrenador Pokemon para divertise y capturarlos a todos",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -746,9 +746,9 @@
 
 	"62": {
             "name": "Coche Eléctrico Cars",
-            "price": 25.5,
+            "price": 120.4,
             "category": "Juguetes",
-            "description": "nasjnd",
+            "description": "Increíble coche de Cars para divertise conduciéndolo",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -758,9 +758,9 @@
 
 	"63": {
             "name": "Juego de Mesa Cultura Friki",
-            "price": 25.5,
+            "price": 28.6,
             "category": "Juguetes",
-            "description": "nasjnd",
+            "description": "Increíble juego Friki para divertise",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -770,9 +770,9 @@
 
 	"64": {
             "name": "Peluche Escarbato Animales Fantásticos",
-            "price": 25.5,
+            "price": 30.23,
             "category": "Juguetes",
-            "description": "nasjnd",
+            "description": "Bonito peluche del Escarbato de Animales Fantásticos. Suave y de calidad",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -782,9 +782,9 @@
 
 	"65": {
             "name": "Escudo Capitán América",
-            "price": 25.5,
+            "price": 104.99,
             "category": "Juguetes",
-            "description": "nasjnd",
+            "description": "Increíble escudo del Capitán América para divertise",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -794,9 +794,9 @@
 
 	"66": {
             "name": "Halcon Milenario Lego Star Wars",
-            "price": 25.5,
+            "price": 1155.5,
             "category": "Juguetes",
-            "description": "nasjnd",
+            "description": "Increíble Halcon Milenario Lego Star Wars para divertise",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -806,9 +806,9 @@
 
 	"67": {
             "name": "Huevos de Juego de Tronos",
-            "price": 25.5,
+            "price": 325.6,
             "category": "Juguetes",
-            "description": "nasjnd",
+            "description": "Increíble colección de los huevos de dragones de Juego de Tronos para divertise",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -818,9 +818,9 @@
 
 	"68": {
             "name": "Máscara de Chewbacca Star Wars",
-            "price": 25.5,
+            "price": 27.8,
             "category": "Juguetes",
-            "description": "nasjnd",
+            "description": "Divertida máscara de Chewbacca para disfrazarse",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -830,9 +830,9 @@
 
 	"69": {
             "name": "Máscara de Deadpool",
-            "price": 25.5,
+            "price": 20.6,
             "category": "Juguetes",
-            "description": "nasjnd",
+            "description": "Divertida máscara de Deadpool para disfrazarse",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -842,9 +842,9 @@
 
 	"70": {
             "name": "Monopoly Juego de Tronos",
-            "price": 25.5,
+            "price": 40.5,
             "category": "Juguetes",
-            "description": "nasjnd",
+            "description": "Increíble Monopoly de Juego de Tronos para divertise",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -854,9 +854,9 @@
 
 	"71": {
             "name": "Muñeco Jack Jack Los Increíbles",
-            "price": 25.5,
+            "price": 26.4,
             "category": "Juguetes",
-            "description": "nasjnd",
+            "description": "Bonito muñeco Jack Jack de Los Increíbles de calidad",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -866,9 +866,9 @@
 
 	"72": {
             "name": "Peluche Pikachu Pokemon",
-            "price": 25.5,
+            "price": 32.65,
             "category": "Juguetes",
-            "description": "nasjnd",
+            "description": "Bonito peluche de Pikachu Pokemon. Suave y de calidad",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -878,9 +878,9 @@
 
 	"73": {
             "name": "Peluche Togepi Pokemon",
-            "price": 25.5,
+            "price": 15.4,
             "category": "Juguetes",
-            "description": "nasjnd",
+            "description": "Bonito peluche de Togepi Pokemon. Suave y de calidad",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -890,9 +890,9 @@
 
 	"74": {
             "name": "Robot BB8 Star Wars",
-            "price": 25.5,
+            "price": 1598.99,
             "category": "Juguetes",
-            "description": "nasjnd",
+            "description": "Increíble Robot BB8 Star Wars para divertise",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -902,9 +902,9 @@
 
 	"75": {
             "name": "Trivial Harry Potter",
-            "price": 25.5,
+            "price": 38.9,
             "category": "Juguetes",
-            "description": "nasjnd",
+            "description": "Increíble juego Trivial Harry Potter para divertise",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -914,9 +914,9 @@
 
 	"76": {
             "name": "Sudadera Always Harry Potter Mujer",
-            "price": 25.5,
+            "price": 24.99,
             "category": "Ropa",
-            "description": "nasjnd",
+            "description": "Sudadera con capucha de alta calidad 100% algodón Always Harry Potter",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -926,9 +926,9 @@
 
 	"77": {
             "name": "Camiseta Batman Joker",
-            "price": 25.5,
+            "price": 15.5,
             "category": "Ropa",
-            "description": "nasjnd",
+            "description": "Camiseta de manga corta de alta calidad 100% algodón del Joker",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -938,9 +938,9 @@
 
 	"78": {
             "name": "Camiseta Beer Hombre",
-            "price": 25.5,
+            "price": 15.5,
             "category": "Ropa",
-            "description": "nasjnd",
+            "description": "Camiseta de manga corta de alta calidad 100% algodón Beer",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -950,9 +950,9 @@
 
 	"79": {
             "name": "Camiseta Consolas Mujer",
-            "price": 25.5,
+            "price": 15.5,
             "category": "Ropa",
-            "description": "nasjnd",
+            "description": "Camiseta de manga corta de alta calidad 100% algodón con Consolas",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -962,9 +962,9 @@
 
 	"80": {
             "name": "Sudadera Flash",
-            "price": 25.5,
+            "price": 24.99,
             "category": "Ropa",
-            "description": "nasjnd",
+            "description": "Sudadera con capucha de alta calidad 100% algodón Flash",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -974,9 +974,9 @@
 
 	"81": {
             "name": "Camiseta Mapa del Merodeador Harry Potter",
-            "price": 25.5,
+            "price": 17.5,
             "category": "Ropa",
-            "description": "nasjnd",
+            "description": "Camiseta de manga corta de alta calidad 100% algodón del Mapa del Merodeador Harry Potter",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -986,9 +986,9 @@
 
 	"81": {
             "name": "Camiseta Marvel",
-            "price": 25.5,
+            "price": 17.5,
             "category": "Ropa",
-            "description": "nasjnd",
+            "description": "Camiseta de manga corta de alta calidad 100% algodón Marvel",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -998,9 +998,9 @@
 
 	"82": {
             "name": "Sudadera Pacman Navidad",
-            "price": 25.5,
+            "price": 24.99,
             "category": "Ropa",
-            "description": "nasjnd",
+            "description": "Sudadera con capucha de alta calidad 100% algodón Pacman Navidad",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -1010,9 +1010,9 @@
 
 	"83": {
             "name": "Camiseta Pikachu Mujer",
-            "price": 25.5,
+            "price": 15.5,
             "category": "Ropa",
-            "description": "nasjnd",
+            "description": "Camiseta de manga corta de alta calidad 100% algodón Pikachu",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -1022,9 +1022,9 @@
 
 	"84": {
             "name": "Camiseta Snorlax Pokemon",
-            "price": 25.5,
+            "price": 15.5,
             "category": "Ropa",
-            "description": "nasjnd",
+            "description": "Camiseta de manga corta de alta calidad 100% algodón Snorlax Pokemon",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -1034,9 +1034,9 @@
 
 	"85": {
             "name": "Vestido Vengadores Mujer",
-            "price": 25.5,
+            "price": 35.65,
             "category": "Ropa",
-            "description": "nasjnd",
+            "description": "Vestido corto de alta calidad 100% algodón Vengadores",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -1046,9 +1046,9 @@
 
 	"86": {
             "name": "Vestido Iron Man Mujer",
-            "price": 25.5,
+            "price": 35.65,
             "category": "Ropa",
-            "description": "nasjnd",
+            "description": "Vestido corto de alta calidad 100% algodón Iron Man",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
@@ -1058,9 +1058,9 @@
 
 	"87": {
             "name": "Novios Harry Potter",
-            "price": 25.5,
+            "price": 60.85,
             "category": "Figuras",
-            "description": "nasjnd",
+            "description": "Figura de novios para tartas de boda de 15x8cm Harry Potter con material de calidad",
             "offer": false,
             "reduction": 0.0,
             "pictures": [
