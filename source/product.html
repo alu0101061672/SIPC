@@ -114,12 +114,19 @@
 					<div class="row fila">
 						<div class="col-lg-6">
 							<form class="form-horizontal my-2 my-md-0 search-form" [formGroup]="searchForm" role="form" (keyup.enter)="onSubmit()">
-								<div class="input-group">
+								<!--<div class="input-group">
 									<input id="searcherInput" type="text" class="form-control" formControlName="searchText" id="searchertext"
 									 placeholder="Search..." size="20">
 									<span id="searcherButton" class="input-group-btn fa fa-search form-control-feedback">
 									</span>
-								</div>
+								</div> -->
+                                 <div class=" input-group">
+								    <input id="searcherInput" type="text" class="form-control" formControlName="searchText" id="searchertext" placeholder="Search..." size="20">
+								    <div class="input-group-append">
+								      <button id="searcherButton" class="input-group-btn fa fa-search form-control-feedback" type="button"></button>  
+								    </div>
+								  </div>
+
 							</form>
 						</div>
 					</div>

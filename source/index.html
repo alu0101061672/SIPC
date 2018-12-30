@@ -304,10 +304,20 @@
 				
     					<div class="col-lg-6 bajarbuscador">
       						<form class="search-form" [formGroup]="searchForm" >
-          						<center><div class="gruposearcher">
+          						<!--<center><div class="gruposearcher">
             							<input id="searcherInput" type="text" class="controlsearcher limitsearchermain" formControlName="searchText" id="searchertext" placeholder="Search..." size="20">
             							<span id="searcherButton" class="input-group-btn fa fa-search control-feedback"></span>
-        						</div></center>
+        						</div></center>-->
+        						<center>
+        							
+								  <div class=" gruposearcher">
+								    <input id="searcherInput" type="text" class="controlsearcher limitsearchermain" formControlName="searchText" id="searchertext" placeholder="Search..." size="20">
+								    <div class="input-group-append">
+								      <button id="searcherButton" class="input-group-btn fa fa-search control-feedback" type="button"></button>  
+								    </div>
+								  </div>
+
+        						</center>
       						</form>
     					</div>
 					</div>
