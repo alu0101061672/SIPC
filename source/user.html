@@ -2,15 +2,15 @@
 <html lang="en">
 
 <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131349564-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131349564-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
 
-  gtag('config', 'UA-131349564-1');
-</script>
+		gtag('config', 'UA-131349564-1');
+	</script>
 	<title>User</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -414,26 +414,10 @@
 				</div>
 				<div class="row margenrow">
 					<div class="col-xl-6 margen1">
-						<h5><b>Name</b></h5>
-					</div>
-					<div class="col-xl-6 margen2">
-						<h5 class="move-right">Yoda</h5>
-					</div>
-				</div>
-				<div class="row margenrow">
-					<div class="col-xl-6 margen1">
-						<h5><b>Username</b></h5>
-					</div>
-					<div class="col-xl-6 margen2">
-						<h5 class="move-right">themasterofmasters</h5>
-					</div>
-				</div>
-				<div class="row margenrow">
-					<div class="col-xl-6 margen1">
 						<h5><b>Email</b></h5>
 					</div>
 					<div class="col-xl-6 margen2">
-						<h5 class="move-right">themaster@gmail.com</h5>
+						<h5 id="email-field" class="move-right text-overflow"></h5>
 					</div>
 				</div>
 				<div class="row margenrow">
@@ -441,7 +425,7 @@
 						<h5><b>Age</b></h5>
 					</div>
 					<div class="col-xl-6 margen2">
-						<h5 class="move-right">207</h5>
+						<h5 id="age-field" class="move-right text-overflow"></h5>
 					</div>
 				</div>
 				<div class="row margenrow">
@@ -449,16 +433,27 @@
 						<h5><b>Address</b></h5>
 					</div>
 					<div class="col-xl-6 margen2">
-						<h5 class="move-right">Callelarepublica nº7</h5>
+						<h5 id="address-field" class="move-right text-overflow"></h5>
 					</div>
 				</div>
 				<div class="row margenrow">
 					<div class="col-xl-6 margen1">
 						<h5><b>Phone</b></h5>
 					</div>
-					<div class="col-xl-6 margen3">
-						<h5 class="move-right">678-455-674</h5>
+					<div class="col-xl-6 margen2">
+						<h5 id="phone-field" class="move-right text-overflow"></h5>
 					</div>
+				</div>
+				<div class="row margenrow">
+					<div class="col-xl-6 margen1">
+						<h5><b>Gender</b></h5>
+					</div>
+					<div class="col-xl-6 margen2">
+						<h5 id="gender-field" class="move-right text-overflow"></h5>
+					</div>
+				</div>
+				<div class="size10 trans-0-4 m-t-10 m-b-10 align-self-center float-right">
+					<button onclick="firebase.auth().signOut();location.href = 'index.html';" type="button" class="flex-c-m sizefull bg1 bo-rad-23 hov1 s-text1 trans-0-4">Log out</button>
 				</div>
 			</div>
 		</div>
@@ -740,7 +735,10 @@
 	<div id="dropDownSelect1"></div>
 	<div id="dropDownSelect2"></div>
 
-
+	<script src="https://www.gstatic.com/firebasejs/5.6.0/firebase.js"></script>
+	<script src="js/firebase.js"></script>
+	<script src="js/complete-user-fields.js"></script>
+	<!--===============================================================================================-->
 	<script src="js/filters.js"></script>
 	<!--===============================================================================================-->
 	<script type="text/javascript" src="vendor/jquery/jquery-3.2.1.min.js"></script>

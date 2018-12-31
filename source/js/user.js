@@ -26,7 +26,10 @@ function handleSignUp() {
     });
     // [END createwithemail]
 }
-document.getElementById('quickstart-sign-up').addEventListener('click', handleSignUp, false);
+
+function goToUserPage() {
+    location.href = 'user.html';
+}
 
 function handleLogUp() {
     var email = document.getElementById('email').value;
@@ -41,7 +44,9 @@ function handleLogUp() {
     }
     // Sign in with email and pass.
     // [START createwithemail]
-    firebase.auth().signInWithEmailAndPassword(email, password).catch(function (error) {
+    firebase.auth().signInWithEmailAndPassword(email, password).then(function(){
+        location.href = "user.html";
+    }).catch(function (error) {
         // Handle Errors here.
         var errorCode = error.code;
         var errorMessage = error.message;
@@ -58,3 +63,24 @@ function handleLogUp() {
     // [END createwithemail]
 }
 document.getElementById('quickstart-sign-up').addEventListener('click', handleLogUp, false);
+
+var currentUser;
+
+firebase.auth().onAuthStateChanged(function (user) {
+    currentUser = user;
+});
+
+document.getElementById('user-link').addEventListener('click', function(){
+    if(currentUser){
+        location.href = "user.html";
+    } else {
+        alert('No user authenticated yet.');
+    }
+});
+document.getElementById('user-mobile-link').addEventListener('click', function(){
+    if(currentUser){
+        location.href = "user.html";
+    } else {
+        alert('No user authenticated yet.');
+    }
+});
