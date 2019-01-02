@@ -26,6 +26,11 @@ function changeQuantity(id, change) {
         }
     }
 }
+if(prevCartItems.length > 0){
+    var notification_message = document.getElementById('cart-message');
+    notification_message.parentElement.removeChild(notification_message);
+}
+
 for (var i = 0; i < prevCartItems.length; i++) {
     var totalPrice = prevCartItems[i].itemQuantity * prevCartItems[i].itemPrice;
     subtotalMoney += totalPrice;
