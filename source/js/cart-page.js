@@ -45,7 +45,7 @@ for (var i = 0; i < prevCartItems.length; i++) {
 					<button class="btn-num-product-down color1 flex-c-m size7 bg8 eff2" onclick="changeQuantity(' + prevCartItems[i].id + ',-1)" >\
 						<i class="fs-12 fa fa-minus" aria-hidden="true"></i>\
 					</button>\
-					<input class="size8 m-text18 t-center num-product" type="number" name="num-product1" value="' + prevCartItems[i].itemQuantity + '">\
+					<input class="size8 m-text18 t-center num-product" type="text" name="num-product1" value="' + prevCartItems[i].itemQuantity + '" disabled>\
 					<button class="btn-num-product-up color1 flex-c-m size7 bg8 eff2" onclick="changeQuantity(' + prevCartItems[i].id + ',1)" >\
 						<i class="fs-12 fa fa-plus" aria-hidden="true"></i>\
 					</button>\
