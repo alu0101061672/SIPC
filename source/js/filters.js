@@ -11,6 +11,18 @@ function filterProducts(category, lower, higher, searchExpression) {
     while (products.lastChild) {
         products.removeChild(products.lastChild)
     }
+
+    var description = "";
+    if(searchExpression.length > 0){
+        description += " about '" + searchExpression + "'";
+    }
+    if(category == 'All'){
+        description += " of all categories"
+    } else {
+        description += " of the category " + category;
+    }
+    description += ' between ' + lower + '-' + higher + ' euros.';
+
     if (category != "All") {
         firebase.database().ref("products").orderByChild("category").equalTo(category).on("child_added", function (snapshot, prevChildKey) {
             if (snapshot.child("price").val() >= lower && snapshot.child("price").val() <= higher && snapshot.child("name").val().search(searchExpression) != -1) {
@@ -34,7 +46,7 @@ function filterProducts(category, lower, higher, searchExpression) {
 							</div>';
                 document.getElementById('products').appendChild(div);
                 resultsQuantity += 1;
-                document.getElementById('results-quantity').innerText = "Showing " + resultsQuantity + " results";
+                document.getElementById('results-quantity').innerText = "Showing " + resultsQuantity + " results" + description;
             }
         });
     } else {
@@ -60,7 +72,7 @@ function filterProducts(category, lower, higher, searchExpression) {
 							</div>';
                 document.getElementById('products').appendChild(div);
                 resultsQuantity += 1;
-                document.getElementById('results-quantity').innerText = "Showing " + resultsQuantity + " results";
+                document.getElementById('results-quantity').innerText = "Showing " + resultsQuantity + " results" + description;
             }
         });
     }
@@ -83,3 +95,10 @@ function filterCategory(category) {
 }
 
 filterCategory(sessionStorage.getItem("selectedCategory"));
+
+window.addEventListener('unload', function (event) {
+    sessionStorage.removeItem("lowerPrice");
+    sessionStorage.removeItem("higherPrice");
+    sessionStorage.removeItem("selectedCategory");
+    sessionStorage.removeItem("searchExpression");
+});
