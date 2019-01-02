@@ -2835,3 +2835,7 @@ input.num-product::-webkit-inner-spin-button {
   transform: translateX(-50%);
   min-width: 240px;
 }
+
+.cart-table-container {
+  overflow-x: scroll;
+}

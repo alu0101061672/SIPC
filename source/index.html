@@ -860,6 +860,12 @@
 	<!-- Container Selection1 -->
 	<div id="dropDownSelect1"></div>
 
+	<script type="text/javascript">
+		function seeDetails(element) {
+			sessionStorage.setItem("selectedProductId", JSON.stringify(element.id));
+		}
+	</script>
+	<!--===============================================================================================-->
 	<script src="js/searcher.js"></script>
 	<!--===============================================================================================-->
 	<script src="js/update-cart.js"></script>
