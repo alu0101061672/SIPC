@@ -1,3 +1,19 @@
+document.getElementById('user-icon').addEventListener('click',function(){
+    document.getElementById('login-popup').hidden = false;
+});
+
+document.getElementById('user-icon-mobile').addEventListener('click',function(){
+    document.getElementById('login-popup').hidden = false;
+});
+
+document.getElementById('login-popup').addEventListener('click',function(){
+    document.getElementById('login-popup').hidden = true;
+});
+
+document.getElementById('login-content').addEventListener('click',function(event){
+    event.stopPropagation();
+});
+
 function handleSignUp() {
     var email = document.getElementById('email').value;
     var password = document.getElementById('password').value;

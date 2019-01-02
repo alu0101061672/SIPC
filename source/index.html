@@ -60,6 +60,7 @@
 
 <body class="animsition">
 
+
 	<!-- Header -->
 	<header>
 		<!-- Header desktop -->
@@ -111,20 +112,6 @@
 				<div class="header-icons">
 					<div class="header-wrapicon2">
 						<img id="user-icon" src="images/icons/icon-header-01.png" class="header-icon1 js-show-header-dropdown" alt="ICON">
-
-						<!-- Header cart noti -->
-						<div class="p-t-20 header-cart header-dropdown">
-							<div class="m-l-20 m-r-20 search-product pos-relative bo4 of-hidden">
-								<input id="email" class="s-text7 size6 p-l-23 p-r-50" type="text" name="search-product" placeholder="Username">
-							</div>
-							<div class="m-l-20 m-r-20 m-t-20 search-product pos-relative bo4 of-hidden">
-								<input id="password" class="s-text7 size6 p-l-23 p-r-50" type="password" name="search-product" placeholder="Password">
-							</div>
-							<button id="quickstart-sign-up" type="button" class="mx-auto m-t-15 flex-c-m size1 bg7 bo-rad-20 hov1 s-text14 trans-0-4">Log
-								in</button>
-							<button class="m-t-20 secondary-button mx-auto s-text7" type="button" onclick="location.href='register.html';">Create
-								account</button>
-						</div>
 					</div>
 
 					<span class="linedivide1"></span>
@@ -168,21 +155,7 @@
 				<!-- Header Icon mobile -->
 				<div class="header-icons-mobile">
 					<a href="#" class="header-wrapicon1 dis-block">
-						<img id="user-icon" src="images/icons/icon-header-01.png" class="header-icon1 js-show-header-dropdown" alt="ICON">
-
-						<!-- Header cart noti -->
-						<div class="p-t-20 header-cart header-dropdown">
-							<div class="m-l-20 m-r-20 search-product pos-relative bo4 of-hidden">
-								<input id="email" class="s-text7 size6 p-l-23 p-r-50" type="text" name="search-product" placeholder="Username">
-							</div>
-							<div class="m-l-20 m-r-20 m-t-20 search-product pos-relative bo4 of-hidden">
-								<input id="password" class="s-text7 size6 p-l-23 p-r-50" type="password" name="search-product" placeholder="Password">
-							</div>
-							<button id="quickstart-sign-up" type="button" class="mx-auto m-t-15 flex-c-m size1 bg7 bo-rad-20 hov1 s-text14 trans-0-4">Log
-								in</button>
-							<button class="m-t-20 secondary-button mx-auto s-text7" type="button" onclick="location.href='register.html';">Create
-								account</button>
-						</div>
+						<img id="user-icon-mobile" src="images/icons/icon-header-01.png" class="header-icon1 js-show-header-dropdown" alt="ICON">
 					</a>
 
 					<span class="linedivide2"></span>
@@ -867,6 +840,22 @@
 			<i class="fa fa-angle-double-up" aria-hidden="true"></i>
 		</span>
 	</div>
+
+	<div id="login-popup" class="popup mx-auto" hidden>
+		<div id="login-content" class="p-t-20 popup-content">
+			<div class="m-l-20 m-r-20 search-product pos-relative bo4 of-hidden">
+				<input id="email" class="s-text7 size6 p-l-23 p-r-50" type="text" name="search-product" placeholder="Username">
+			</div>
+			<div class="m-l-20 m-r-20 m-t-20 search-product pos-relative bo4 of-hidden">
+				<input id="password" class="s-text7 size6 p-l-23 p-r-50" type="password" name="search-product" placeholder="Password">
+			</div>
+			<button id="quickstart-sign-up" type="button" class="mx-auto m-t-15 flex-c-m size1 bg7 bo-rad-20 hov1 s-text14 trans-0-4">Log
+				in</button>
+			<button class="m-t-20 secondary-button mx-auto s-text7" type="button" onclick="location.href='register.html';">Create
+				account</button>
+		</div>
+	</div>
+
 
 	<!-- Container Selection1 -->
 	<div id="dropDownSelect1"></div>
