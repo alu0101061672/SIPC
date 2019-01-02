@@ -9,7 +9,7 @@ firebase.database().ref("products/" + productId).on("value", function (snap) {
     document.getElementById('add-selected-product').onclick = function () {
         if (document.getElementById("size-selection").selectedIndex != 0 && 
             document.getElementById("color-selection").selectedIndex != 0) {
-            addToCart(parseInt(productId), parseInt(document.getElementById('quantity-input').value), "a", changedPost.name, changedPost.price);
+            addToCart(parseInt(productId), parseInt(document.getElementById('quantity-input').value), changedPost.pictures, changedPost.name, changedPost.price);
         } else {
             alert('Complete all fields.');
         }
