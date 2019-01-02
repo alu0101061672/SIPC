@@ -29,7 +29,7 @@ function filterProducts(category, lower, higher, searchExpression) {
 							</div>\
 							<div class="p-t-20 p-l-15 p-b-10">\
 							<a id="' + snapshot.key + '" href="product-detail.html" class="text-overflow dis-block s-text3 p-b-5" onclick="seeDetails(this)">' + snapshot.child("name").val() + '</a><span\
-							class="block2-price m-text6 p-r-5">' + snapshot.child("price").val() + '&euro;</span>\
+							class="block2-price m-text6 p-r-5">' + (snapshot.child("price").val()).toFixed(2) + '&euro;</span>\
 							</div>\
 							</div>';
                 document.getElementById('products').appendChild(div);
@@ -55,7 +55,7 @@ function filterProducts(category, lower, higher, searchExpression) {
 							</div>\
 							<div class="p-t-20 p-l-15 p-b-10">\
 							<a id="' + snapshot.key + '" href="product-detail.html" class="text-overflow dis-block s-text3 p-b-5" onclick="seeDetails(this)">' + snapshot.child("name").val() + '</a><span\
-							class="block2-price m-text6 p-r-5">' + snapshot.child("price").val() + '&euro;</span>\
+							class="block2-price m-text6 p-r-5">' + (snapshot.child("price").val()).toFixed(2) + '&euro;</span>\
 							</div>\
 							</div>';
                 document.getElementById('products').appendChild(div);

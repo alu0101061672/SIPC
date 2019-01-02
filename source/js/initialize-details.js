@@ -4,7 +4,7 @@ firebase.database().ref("products/" + productId).on("value", function (snap) {
     document.getElementById("description").innerHTML = changedPost.description;
     document.getElementById("name").innerHTML = changedPost.name;
     document.getElementById("category").innerHTML = 'Categories: ' + changedPost.category;
-    document.getElementById("price").innerHTML = changedPost.price + "€";
+    document.getElementById("price").innerHTML = (changedPost.price).toFixed(2) + "€";
     document.getElementById("picture").setAttribute("src", changedPost.pictures);
     document.getElementById('add-selected-product').onclick = function () {
         if (document.getElementById("size-selection").selectedIndex != 0 && 

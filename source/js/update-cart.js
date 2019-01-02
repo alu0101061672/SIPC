@@ -11,7 +11,7 @@ function removeFromCart(id) {
     }
     if(i < cartItems.length){
         subtotal -= (cartItems[i].itemQuantity * cartItems[i].itemPrice);
-        document.getElementById('subtotal').innerText = subtotal;
+        document.getElementById('subtotal').innerText = (subtotal).toFixed(2);
         document.getElementById('different-products').innerText = parseInt(document.getElementById('different-products').innerText - cartItems[i].itemQuantity);
         cartItems.splice(i, 1);
         document.getElementById('cart-items').removeChild(document.getElementById(id));
@@ -42,15 +42,14 @@ function addToCart(productId, quantity, picture, name, price) {
                     ' + name + '\
                 </a>\
                 <span class="header-cart-item-info">\
-                    ' + quantity + 'x' + price + '€\
+                    ' + quantity + 'x' + (price).toFixed(2) + '€\
                 </span>\
             </div>';
 
-    debugger;
     subtotal += quantity * price;
     document.getElementById('cart-items').appendChild(li);
     document.getElementById('different-products').innerText = parseInt(document.getElementById('different-products').innerText, 10) + parseInt(quantity);
-    document.getElementById('subtotal').innerText = subtotal;
+    document.getElementById('subtotal').innerText = (subtotal).toFixed(2);
 
     listOfCartItems.push({ id: productId, itemQuantity: quantity, itemPicture: picture, itemName: name, itemPrice: price });
     sessionStorage.setItem("cart-items", JSON.stringify(listOfCartItems));
@@ -69,12 +68,12 @@ for (var i = 0; i < prevCartItems.length; i++) {
                     ' + prevCartItems[i].itemName + '\
                 </a>\
                 <span class="header-cart-item-info">\
-                    ' + prevCartItems[i].itemQuantity + 'x' + prevCartItems[i].itemPrice + '€\
+                    ' + prevCartItems[i].itemQuantity + 'x' + (prevCartItems[i].itemPrice).toFixed(2) + '€\
                 </span>\
             </div>';
 
     subtotal += prevCartItems[i].itemQuantity * prevCartItems[i].itemPrice;
     document.getElementById('cart-items').appendChild(li);
     document.getElementById('different-products').innerText = parseInt(document.getElementById('different-products').innerText, 10) + parseInt(prevCartItems[i].itemQuantity);
-    document.getElementById('subtotal').innerText = subtotal;
+    document.getElementById('subtotal').innerText = (subtotal).toFixed(2);
 }

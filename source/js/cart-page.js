@@ -11,10 +11,10 @@ function changeQuantity(id, change) {
     if (i < cartItems.length) {
         if ((cartItems[i].itemQuantity + change) > 0) {
             addToCart(id, cartItems[i].itemQuantity + change, cartItems[i].itemPicture, cartItems[i].itemName, cartItems[i].itemPrice);
-            document.getElementById('total-price-' + id).innerText = (cartItems[i].itemQuantity + change) * cartItems[i].itemPrice + '€';
+            document.getElementById('total-price-' + id).innerText = ((cartItems[i].itemQuantity + change) * cartItems[i].itemPrice).toFixed(2) + '€';
             subtotalMoney += (cartItems[i].itemPrice * change);
             document.getElementById('card-subtotal').innerText = subtotalMoney.toFixed(2) + ' €';
-            totalMoney = totalMoney = subtotalMoney + shippingMoney;
+            totalMoney = subtotalMoney + shippingMoney;
             document.getElementById('card-total').innerText = (totalMoney).toFixed(2) + ' €';
         } else if ((cartItems[i].itemQuantity + change) == 0) {
             removeFromCart(id);
@@ -44,7 +44,7 @@ for (var i = 0; i < prevCartItems.length; i++) {
 				</div>\
 			</td>\
 			<td class="column-2">' + prevCartItems[i].itemName + '</td>\
-			<td class="column-3">' + prevCartItems[i].itemPrice + '€</td>\
+			<td class="column-3">' + (prevCartItems[i].itemPrice).toFixed(2) + '€</td>\
 			<td class="column-4">\
 				<div class="flex-w bo5 of-hidden w-size17">\
 					<button class="btn-num-product-down color1 flex-c-m size7 bg8 eff2" onclick="changeQuantity(' + prevCartItems[i].id + ',-1)" >\
@@ -56,7 +56,7 @@ for (var i = 0; i < prevCartItems.length; i++) {
 					</button>\
 				</div>\
 			</td>\
-			<td id="total-price-' + prevCartItems[i].id + '" class="column-5">' + totalPrice + '€</td>';
+			<td id="total-price-' + prevCartItems[i].id + '" class="column-5">' + (totalPrice).toFixed(2) + '€</td>';
 
     document.getElementById('products-to-buy').appendChild(tr);
 }
