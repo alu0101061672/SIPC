@@ -1,49 +1,59 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<!--Falta decidir los productos y rellenar la info de las etiquetas.-->
 <productos>
   <producto ID="1">
     <nombre>Sudadera_Harry_Potter_Escudo_Hogwarts-Hombre-Negro</nombre>
-    <descripcion>El_joven_mago_de_la_cicatriz_con_forma_de_rayo_ha_logrado_hechizar_a_millones_de_fans_en_todo_el_mundo...
-      ¡y_a_FrikiYa!_también!_Rinde_homenaje_al_mágico_mundo_de_Harry_Potter_con_esta_extraordinaria_colección_de_camisetas_y_
-      sudaderas_inspiradas_en_la_saga_de_J._K._Rowling.
-      Sudadera_confeccionada_en_un_suave_tejido_de_algodón._
-      Imagen_impresa_en_la_parte_frontal,_capucha_con_cordón_ajustable,_
-      bolsillo_frontal_tipo_canguro_y_ribetes_de_canalé.</descripcion>
-    <talla>L</talla> <!--Si es ropa, se incluye la talla-->
-    <precio>21,99€</precio>
-    <oferta>Sí</oferta> <!--para indicar si el producto está de oferta-->
-    <ahorro>13,00€</ahorro>
-    <foto>images/Fotos_productos/SudaderaHarryPotter/frontal.jpg</foto>
+    <precio>21.9956</precio>
+    <foto>images/Fotos_productos/Ropa/SudaderaHarryPotter/frontal.jpg</foto>
+    <new>true</new>
   </producto>
 
   <producto ID="2">
     <nombre>Camiseta_Star_Wars_Stormtrooper_Pintura-Mujer-Negro</nombre>
-    <descripcion>Camiseta_confeccionada_en_un_suave_tejido_de_algodón,_imagen_impresa_en_la_parte_frontal,_cuello_redondo_y_mangas_cortas.</descripcion>
-    <talla>M</talla>
-    <precio>11,99€</precio>
-    <oferta>Sí</oferta>
-    <ahorro>6,00€</ahorro>
-    <foto>images/Fotos_productos/CamisetaMujerStarWars/frontal.jpg</foto>
+    <precio>11.997</precio>
+    <foto>images/Fotos_productos/Ropa/CamisetaMujerStarWars/frontal.jpg</foto>
+    <new>true</new>
   </producto>
 
-  <producto ID="3">
-    <nombre>Camiseta_Marvel_Guardianes_de_la_Galaxia_Vol._2_Logo-Hombre-Gris</nombre>
-    <descripcion>Confeccionada_en_puro_algodón._Imagen_impresa_en_la_parte_frontal,_cuello_redondo_y_mangas_cortas.</descripcion>
-    <talla>S</talla>
-    <precio>11,49€</precio>
-    <oferta>Sí</oferta>
-    <ahorro>9,50€</ahorro>
-    <foto>images/Fotos_productos/CamisetaHombreGuardianesGalaxia/Frontal.jpg</foto>
+  <producto ID="40">
+    <nombre>Spiderman y X-men</nombre>
+    <precio>17.40</precio>
+    <foto>images/Fotos_productos/Comics/thelastmarvelteam-upspidermanandxmen.jpg</foto>
+    <new>false</new>
   </producto>
 
-  <producto ID="4">
-    <nombre>Nintendo_Mario_Items_Logo_Kids'_T-Shirt-Red</nombre>
-    <descripcion>Camiseta_100%_algodón._Varias_tallas_disponibles.</descripcion>
-    <talla>XXL</talla>
-    <precio>17,99€</precio>
-    <oferta>No</oferta>
-    <ahorro></ahorro>
-    <foto>images/Fotos_productos/CamisetaMario/frontal.jpg</foto>
+  <producto ID="0">
+    <nombre>Nintendo_Mario_Items_Logo_Kids_T-Shirt-Red</nombre>
+    <precio>17.995</precio>
+    <foto>images/Fotos_productos/Ropa/CamisetaMario/frontal.jpg</foto>
+    <new>true</new>
+  </producto>
+
+  <producto ID="26">
+    <nombre>Zelda para Wii</nombre>
+    <precio>28.742</precio>
+    <foto>images/Fotos_productos/Videojuegos/zeldawii.jpg</foto>
+    <new>false</new>
+  </producto>
+
+  <producto ID="47">
+    <nombre>Poster del Joker</nombre>
+    <precio>12.654</precio>
+    <foto>images/Fotos_productos/Posters/joker.jpg</foto>
+    <new>true</new>
+  </producto>
+
+  <producto ID="12">
+    <nombre>Negan The Walking Dead</nombre>
+    <precio>12.99</precio>
+    <foto>images/Fotos_productos/Figuras/negan-the-walking-dead-funko-pop-vinyl.jpg</foto>
+    <new>false</new>
+  </producto>
+
+  <producto ID="72">
+    <nombre>Peluche Pikachu Pokemon</nombre>
+    <precio>32.648</precio>
+    <foto>images/Fotos_productos/Juguetes/peluchepikachu.jpg</foto>
+    <new>true</new>
   </producto>
 </productos>
