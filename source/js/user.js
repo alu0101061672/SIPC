@@ -1,16 +1,20 @@
 document.getElementById('user-icon').addEventListener('click',function(){
+    debugger;
     document.getElementById('login-popup').hidden = false;
 });
 
 document.getElementById('user-icon-mobile').addEventListener('click',function(){
+    debugger;
     document.getElementById('login-popup').hidden = false;
 });
 
 document.getElementById('login-popup').addEventListener('click',function(){
+    debugger;
     document.getElementById('login-popup').hidden = true;
 });
 
 document.getElementById('login-content').addEventListener('click',function(event){
+    debugger;
     event.stopPropagation();
 });
 

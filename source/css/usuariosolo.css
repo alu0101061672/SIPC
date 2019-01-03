@@ -30,6 +30,7 @@
 .filafondo2 { /*fila de azul gradiente que se coloca encima del fondo blanco*/
 	background: linear-gradient(to bottom, #3931af 0%, #00c6ff 100%);
 	position: relative;
+	margin: 0px;
 }
 
 .rectangulofrontal {

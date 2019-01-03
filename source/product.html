@@ -2,20 +2,26 @@
 <html lang="en">
 
 <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131349564-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131349564-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
 
-  gtag('config', 'UA-131349564-1');
-</script>
-	<title>Product</title>
+		gtag('config', 'UA-131349564-1');
+	</script>
+	<title> Product </title>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+	<meta name="author" content="Jorge González,Basilio Gómez, Sonia Díaz">
+	<meta name="description" content="Tienda de merchandaising friki para comprar distintas categorías de productos frikis">
+
 	<!--===============================================================================================-->
-	<link rel="icon" type="image/png" href="images/icons/favicon.png" />
+	<link rel="stylesheet" href="css/frikiya.css">
+	<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/image.png" />
 	<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
 	<!--===============================================================================================-->
@@ -42,6 +48,7 @@
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<!--===============================================================================================-->
+
 </head>
 
 <body class="animsition">
@@ -103,23 +110,20 @@
 							<li>
 								<a href="about.html">About</a>
 							</li>
+
+							<li>
+								<a id="user-link">User</a>
+							</li>
 		
 						</ul>
 					</nav>
 				</div>
 
 				<!-- Buscador -->
-
 				<div class="container containersearcher">
 					<div class="row fila">
 						<div class="col-lg-6">
 							<form class="form-horizontal my-2 my-md-0 search-form" [formGroup]="searchForm" role="form" (keyup.enter)="onSubmit()">
-								<!--<div class="input-group">
-									<input id="searcherInput" type="text" class="form-control" formControlName="searchText" id="searchertext"
-									 placeholder="Search..." size="20">
-									<span id="searcherButton" class="input-group-btn fa fa-search form-control-feedback">
-									</span>
-								</div> -->
                                  <div class=" input-group">
 								    <input id="searcherInput" type="text" class="form-control" formControlName="searchText" id="searchertext" placeholder="Search..." size="20">
 								    <div class="input-group-append">
@@ -131,14 +135,13 @@
 						</div>
 					</div>
 				</div>
-
-			</div>
+		</div>
 
 				<!-- Header Icon -->
 				<div class="header-icons">
-					<a href="#" class="header-wrapicon1 dis-block">
-						<img src="images/icons/icon-header-01.png" class="header-icon1" alt="ICON">
-					</a>
+					<div class="header-wrapicon2">
+						<img id="user-icon" src="images/icons/icon-header-01.png" class="header-icon1 js-show-header-dropdown" alt="ICON">
+					</div>
 
 					<span class="linedivide1"></span>
 
@@ -181,7 +184,7 @@
 				<!-- Header Icon mobile -->
 				<div class="header-icons-mobile">
 					<a href="#" class="header-wrapicon1 dis-block">
-						<img src="images/icons/icon-header-01.png" class="header-icon1" alt="ICON">
+						<img id="user-icon-mobile" src="images/icons/icon-header-01.png" class="header-icon1" alt="ICON">
 					</a>
 
 					<span class="linedivide2"></span>
@@ -270,43 +273,19 @@
 		<div class="wrap-side-menu">
 			<nav class="side-menu">
 				<ul class="main-menu">
-					<li class="item-topbar-mobile p-l-20 p-t-8 p-b-8">
-						<span class="topbar-child1">
-							Free shipping for standard order over $100
-						</span>
-					</li>
-
-					<li class="item-topbar-mobile p-l-20 p-t-8 p-b-8">
-						<div class="topbar-child2-mobile">
-							<span class="topbar-email">
-								fashe@example.com
-							</span>
-
-							<div class="topbar-language rs1-select2">
-								<select class="selection-1" name="time">
-									<option>USD</option>
-									<option>EUR</option>
-								</select>
-							</div>
-						</div>
-					</li>
-
-					<li class="item-topbar-mobile p-l-10">
-						<div class="topbar-social-mobile">
-							<a href="#" class="topbar-social-item fa fa-facebook"></a>
-							<a href="#" class="topbar-social-item fa fa-instagram"></a>
-							<a href="#" class="topbar-social-item fa fa-pinterest-p"></a>
-							<a href="#" class="topbar-social-item fa fa-snapchat-ghost"></a>
-							<a href="#" class="topbar-social-item fa fa-youtube-play"></a>
-						</div>
+					<li class="item-menu-mobile">
+						<a href="index.html">Home</a>
 					</li>
 
 					<li class="item-menu-mobile">
-						<a href="index.html">Home</a>
+						<a>Categories</a>
 						<ul class="sub-menu">
-							<li><a href="index.html">Homepage V1</a></li>
-							<li><a href="home-02.html">Homepage V2</a></li>
-							<li><a href="home-03.html">Homepage V3</a></li>
+							<li><a href="product.html" onclick="sessionStorage.setItem('selectedCategory','Figuras')">Figuras</a></li>
+							<li><a href="product.html" onclick="sessionStorage.setItem('selectedCategory','Videojuegos')">Videojuegos</a></li>
+							<li><a href="product.html" onclick="sessionStorage.setItem('selectedCategory','Comics')">Comics</a></li>
+							<li><a href="product.html" onclick="sessionStorage.setItem('selectedCategory','Posters')">Posters</a></li>
+							<li><a href="product.html" onclick="sessionStorage.setItem('selectedCategory','Ropa')">Ropa</a></li>
+							<li><a href="product.html" onclick="sessionStorage.setItem('selectedCategory','Juguetes')">Juguetes</a></li>
 						</ul>
 						<i class="arrow-main-menu fa fa-angle-right" aria-hidden="true"></i>
 					</li>
@@ -316,24 +295,13 @@
 					</li>
 
 					<li class="item-menu-mobile">
-						<a href="product.html">Sale</a>
-					</li>
-
-					<li class="item-menu-mobile">
-						<a href="cart.html">Features</a>
-					</li>
-
-					<li class="item-menu-mobile">
-						<a href="blog.html">Blog</a>
-					</li>
-
-					<li class="item-menu-mobile">
 						<a href="about.html">About</a>
 					</li>
 
 					<li class="item-menu-mobile">
-						<a href="contact.html">Contact</a>
+						<a id="user-mobile-link">User</a>
 					</li>
+
 				</ul>
 			</nav>
 		</div>
@@ -438,11 +406,10 @@
 						<!-- Aquí está el resultado del xsl -->
 						<div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
 							<div class="shadow-car block2">
-								<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
+								<div class="block2-img wrap-pic-w of-hidden pos-relative">
 									<img src="images/Fotos_productos/SudaderaHarryPotter/frontal.jpg" alt="IMG-PRODUCT">
 									<div class="block2-overlay trans-0-4">
-										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4"><i class="icon-wishlist icon_heart_alt"
-											 aria-hidden="true"></i><i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i></a>
+										<a href="#" class="hov-pointer trans-0-4"></a>
 										<div class="block2-btn-addcart w-size1 trans-0-4">
 											<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">Add to Cart</button>
 										</div>
@@ -456,11 +423,10 @@
 						</div>
 						<div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
 							<div class="shadow-car block2">
-								<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
+								<div class="block2-img wrap-pic-w of-hidden pos-relative">
 									<img src="images/Fotos_productos/CamisetaMujerStarWars/frontal.jpg" alt="IMG-PRODUCT">
 									<div class="block2-overlay trans-0-4">
-										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4"><i class="icon-wishlist icon_heart_alt"
-											 aria-hidden="true"></i><i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i></a>
+										<a href="#" class="hov-pointer trans-0-4"></a>
 										<div class="block2-btn-addcart w-size1 trans-0-4">
 											<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">Add to Cart</button>
 										</div>
@@ -474,11 +440,10 @@
 						</div>
 						<div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
 							<div class="shadow-car block2">
-								<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
+								<div class="block2-img wrap-pic-w of-hidden pos-relative">
 									<img src="images/Fotos_productos/CamisetaHombreGuardianesGalaxia/Frontal.jpg" alt="IMG-PRODUCT">
 									<div class="block2-overlay trans-0-4">
-										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4"><i class="icon-wishlist icon_heart_alt"
-											 aria-hidden="true"></i><i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i></a>
+										<a href="#" class="hov-pointer trans-0-4"></a>
 										<div class="block2-btn-addcart w-size1 trans-0-4">
 											<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">Add to Cart</button>
 										</div>
@@ -492,11 +457,10 @@
 						</div>
 						<div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
 							<div class="shadow-car block2">
-								<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
+								<div class="block2-img wrap-pic-w of-hidden pos-relative">
 									<img src="images/Fotos_productos/CamisetaMario/frontal.jpg" alt="IMG-PRODUCT">
 									<div class="block2-overlay trans-0-4">
-										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4"><i class="icon-wishlist icon_heart_alt"
-											 aria-hidden="true"></i><i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i></a>
+										<a href="#" class="hov-pointer trans-0-4"></a>
 										<div class="block2-btn-addcart w-size1 trans-0-4">
 											<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">Add to Cart</button>
 										</div>
@@ -706,14 +670,31 @@
 		</span>
 	</div>
 
+	<div id="login-popup" class="popup mx-auto" hidden>
+		<div id="login-content" class="p-t-20 popup-content">
+			<div class="m-l-20 m-r-20 search-product pos-relative bo4 of-hidden">
+				<input id="email" class="s-text7 size6 p-l-23 p-r-50" type="text" name="search-product" placeholder="Username">
+			</div>
+			<div class="m-l-20 m-r-20 m-t-20 search-product pos-relative bo4 of-hidden">
+				<input id="password" class="s-text7 size6 p-l-23 p-r-50" type="password" name="search-product" placeholder="Password">
+			</div>
+			<button id="quickstart-sign-up" type="button" class="mx-auto m-t-15 flex-c-m size1 bg7 bo-rad-20 hov1 s-text14 trans-0-4">Log
+				in</button>
+			<button class="m-t-20 secondary-button mx-auto s-text7" type="button" onclick="location.href='register.html';">Create
+				account</button>
+		</div>
+	</div>
+
 	<!-- Container Selection -->
 	<div id="dropDownSelect1"></div>
 	<div id="dropDownSelect2"></div>
 
-
-	<script src="js/searcher.js"></script>
 	<!--===============================================================================================-->
 	<script src="js/update-cart.js"></script>
+	<!--===============================================================================================-->
+	<script src="https://www.gstatic.com/firebasejs/5.6.0/firebase.js"></script>
+	<script src="js/firebase.js"></script>
+	<script src="js/user.js"></script>
 	<!--===============================================================================================-->
 	<script type="text/javascript">
 		function seeDetails(element) {
@@ -793,6 +774,9 @@
 	<script src="js/main.js"></script>
 	<!--===============================================================================================-->
 	<script src="js/filters.js"></script>
+	<!--===============================================================================================-->
+	<script src="js/searcher.js"></script>
+
 </body>
 
 </html>
