@@ -2584,19 +2584,15 @@ input.num-product::-webkit-inner-spin-button {
 
 .search-form .input-group input.form-control {
 
- /*margin-left: -25px; */
  border:none;
  background: transparent;
  box-shadow: none;
  display:block;
  padding: 1rem 2rem;
-
- padding-left: 10px; /*NUEVOOO*/
-/* padding-right: 5px;*/
+ padding-left: 10px;
  margin-left: -5px;
 }
 
-/*NUEVOOO*/
 .margensearcher{
  margin-right: 8px;
  margin-left: 8px;
@@ -2750,4 +2746,39 @@ input.num-product::-webkit-inner-spin-button {
 
 .cart-table-container {
   overflow-x: scroll;
+}
+
+.notification-message {
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+}
+
+#cart-message {
+    margin-top: 50px;
+}
+
+.item-slick3 .measures img {max-height: 500px; max-width: 100%;}
+/* ------------------------------------ */
+.wrap-pic-w img {width: 100%; height: 300px;}
+
+.hov-img-zoom img{
+  height: 500px;
+  margin-top: 13px;
+
+}
+
+.hov-img-zoom:hover img {
+  padding-right: 10px;
+  padding-bottom: 20px;
+ 
+}
+
+.size1 {
+  width: 85%;
+
+}
+
+.h-size3 {
+  height: 400px;
 }
