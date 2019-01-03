@@ -2763,7 +2763,7 @@ input.num-product::-webkit-inner-spin-button {
  text-align: center; 
  height: 2px; 
  background: -moz-linear-gradient(left, #fff, #a8a8a8, #fff);
- width:1000px;
+ width:100%;
 
 }
 
