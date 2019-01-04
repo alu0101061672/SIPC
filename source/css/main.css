@@ -2434,7 +2434,6 @@ input.num-product::-webkit-inner-spin-button {
  position: fixed;
  top: 0;
  height: 80px;
- padding-top: 80px;
  left: 0;
  width: 100%;
  z-index: 1000;
