@@ -53,6 +53,12 @@
 	}
 }
 
+@media only screen and (max-width: 720px){
+	.pading-dcha720 {
+		padding-right: 50px;
+	}
+}
+
 .profile-img {
 	padding: 0px !important;
 }
@@ -96,6 +102,10 @@
 }
 .margenrow {
 	margin-top: 5%;
+}
+
+.pading-dcha420{
+	padding-right: 55px;
 }
 .containerbottom {
 	background: #19B3B0;
