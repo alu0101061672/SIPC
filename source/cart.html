@@ -12,10 +12,14 @@
   gtag('config', 'UA-131349564-1');
 </script>
 	<title>Cart</title>
+	<title> FrikiYa! </title>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+	<meta name="author" content="Jorge González,Basilio Gómez, Sonia Díaz">
+	<meta name="description" content="Tienda de merchandaising friki para comprar distintas categorías de productos frikis">
 	<!--===============================================================================================-->
-	<link rel="icon" type="image/png" href="images/icons/favicon.png" />
+	<link rel="icon" type="image/png" href="images/icons/image.png" />
 	<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
 	<!--===============================================================================================-->
@@ -50,13 +54,14 @@
 		<!-- Header desktop -->
 		<div id="header">
 		<div class="container-menu-header">
+
 			<div class="wrap_header">
 				<!-- Logo -->
 				<a href="index.html" class="logo">
 					<img src="images/icons/logo.png" alt="IMG-LOGO">
 				</a>
-				
-					<!-- Menu -->
+
+				<!-- Menu -->
 				<div class="wrap_menu">
 					<nav class="menu">
 						<ul class="main_menu">
@@ -77,34 +82,38 @@
 							</li>
 		
 							<li>
-								<a href="product.html" class="colorletramenu">Shop</a>
+								<a href="product.html" >Shop</a>
 							</li>
 		
 							<li>
 								<a href="about.html">About</a>
 							</li>
 		
+							<li>
+								<a id="user-link">User</a>
+							</li>
+
 						</ul>
 					</nav>
 				</div>
 		
-				<!-- Buscador -->
 
+ 				<!-- Buscador -->
 				<div class="container containersearcher">
 					<div class="row fila">
-						<div class="col-lg-6">
-							<form class="form-horizontal my-2 my-md-0 search-form" [formGroup]="searchForm" role="form" (keyup.enter)="onSubmit()">
-								<div class="input-group">
-									<input id="searcherInput" type="text" class="form-control" formControlName="searchText" id="searchertext"
-									 placeholder="Search..." size="20">
-									<span id="searcherButton" class="input-group-btn fa fa-search form-control-feedback">
-									</span>
-								</div>
-							</form>
-						</div>
+    						<div class="col-lg-6">
+      							<form class="form-horizontal my-2 my-md-0 search-form" [formGroup]="searchForm" role="form" (keyup.enter)="onSubmit()">
+          							<div class="input-group">
+            								<input type="text" class="form-control" formControlName="searchText" id="searchertext" placeholder="Search..." size="20">
+            								<span class="input-group-btn fa fa-search form-control-feedback">
+     									</span>
+        							</div>
+      							</form>
+    						</div>
 					</div>
 				</div>
-			</div>
+		    </div>
+
 
 				<!-- Header Icon -->
 				<div class="header-icons">
