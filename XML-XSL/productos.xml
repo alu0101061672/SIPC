@@ -4,56 +4,56 @@
   <producto ID="1">
     <nombre>Sudadera_Harry_Potter_Escudo_Hogwarts-Hombre-Negro</nombre>
     <precio>21.9956</precio>
-    <foto>images/Fotos_productos/Ropa/SudaderaHarryPotter/frontal.jpg</foto>
+    <foto>images/Fotos_Productos/Ropa/SudaderaHarryPotter/frontal.jpg</foto>
     <new>true</new>
   </producto>
 
   <producto ID="2">
     <nombre>Camiseta_Star_Wars_Stormtrooper_Pintura-Mujer-Negro</nombre>
     <precio>11.997</precio>
-    <foto>images/Fotos_productos/Ropa/CamisetaMujerStarWars/frontal.jpg</foto>
+    <foto>images/Fotos_Productos/Ropa/CamisetaMujerStarWars/frontal.jpg</foto>
     <new>true</new>
   </producto>
 
   <producto ID="40">
     <nombre>Spiderman y X-men</nombre>
     <precio>17.40</precio>
-    <foto>images/Fotos_productos/Comics/thelastmarvelteam-upspidermanandxmen.jpg</foto>
+    <foto>images/Fotos_Productos/Comics/thelastmarvelteam-upspidermanandxmen.jpg</foto>
     <new>false</new>
   </producto>
 
   <producto ID="0">
     <nombre>Nintendo_Mario_Items_Logo_Kids_T-Shirt-Red</nombre>
     <precio>17.995</precio>
-    <foto>images/Fotos_productos/Ropa/CamisetaMario/frontal.jpg</foto>
+    <foto>images/Fotos_Productos/Ropa/CamisetaMario/frontal.jpg</foto>
     <new>true</new>
   </producto>
 
   <producto ID="26">
     <nombre>Zelda para Wii</nombre>
     <precio>28.742</precio>
-    <foto>images/Fotos_productos/Videojuegos/zeldawii.jpg</foto>
+    <foto>images/Fotos_Productos/Videojuegos/zeldawii.jpg</foto>
     <new>false</new>
   </producto>
 
   <producto ID="47">
     <nombre>Poster del Joker</nombre>
     <precio>12.654</precio>
-    <foto>images/Fotos_productos/Posters/joker.jpg</foto>
+    <foto>images/Fotos_Productos/Posters/joker.jpg</foto>
     <new>true</new>
   </producto>
 
   <producto ID="12">
     <nombre>Negan The Walking Dead</nombre>
     <precio>12.99</precio>
-    <foto>images/Fotos_productos/Figuras/negan-the-walking-dead-funko-pop-vinyl.jpg</foto>
+    <foto>images/Fotos_Productos/Figuras/negan-the-walking-dead-funko-pop-vinyl.jpg</foto>
     <new>false</new>
   </producto>
 
   <producto ID="72">
     <nombre>Peluche Pikachu Pokemon</nombre>
     <precio>32.648</precio>
-    <foto>images/Fotos_productos/Juguetes/peluchepikachu.jpg</foto>
+    <foto>images/Fotos_Productos/Juguetes/peluchepikachu.jpg</foto>
     <new>true</new>
   </producto>
 </productos>
