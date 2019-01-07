@@ -14,10 +14,9 @@
 	<title>Product Detail</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+	<meta name="keywords" content="HTML,CSS,XML,JavaScript,Friki,Shopping,Tienda,Online,Merchandaising">
 	<meta name="author" content="Jorge González,Basilio Gómez, Sonia Díaz">
 	<meta name="description" content="Tienda de merchandaising friki para comprar distintas categorías de productos frikis">
-
 	<!--===============================================================================================-->
 	<link rel="stylesheet" href="css/frikiya.css">
 	<!--===============================================================================================-->
@@ -73,68 +72,67 @@
 	<header>
 		<!-- Header desktop -->
 		<div id="header">
-			<div class="container-menu-header">
-				<div class="wrap_header">
-					<!-- Logo -->
-					<a href="index.html" class="logo">
-						<img src="images/icons/logo.png" alt="IMG-LOGO">
-					</a>
+		<div class="container-menu-header">
+			<div class="wrap_header">
+				<!-- Logo -->
+				<a href="index.html" class="logo">
+					<img src="images/icons/logo.png" alt="IMG-LOGO">
+				</a>
 
 					<!-- Menu -->
-					<div class="wrap_menu">
-						<nav class="menu">
-							<ul class="main_menu">
-								<li>
-									<a href="index.html">Home</a>
-								</li>
+				<div class="wrap_menu">
+					<nav class="menu">
+						<ul class="main_menu">
+							<li>
+								<a href="index.html" >Home</a>
+							</li>
+		
 
+							<li >
+								<a href="#">Categories</a>
+								<ul class="sub_menu">
+									<li><a href="product.html" onclick="sessionStorage.setItem('selectedCategory','Figuras')">Figuras</a></li>
+									<li><a href="product.html" onclick="sessionStorage.setItem('selectedCategory','Videojuegos')">Videojuegos</a></li>
+									<li><a href="product.html" onclick="sessionStorage.setItem('selectedCategory','Comics')">Comics</a></li>
+									<li><a href="product.html" onclick="sessionStorage.setItem('selectedCategory','Posters')">Posters</a></li>
+									<li><a href="product.html" onclick="sessionStorage.setItem('selectedCategory','Ropa')">Ropa</a></li>
+									<li><a href="product.html" onclick="sessionStorage.setItem('selectedCategory','Juguetes')">Juguetes</a></li>
+								</ul>
+							</li>
+		
+							<li>
+								<a href="product.html" class="colorletramenu">Shop</a>
+							</li>
+		
+							<li>
+								<a href="about.html">About</a>
+							</li>
 
-								<li>
-									<a href="#">Categories</a>
-									<ul class="sub_menu">
-										<li><a href="product.html" onclick="sessionStorage.setItem('selectedCategory','Figuras')">Figuras</a></li>
-										<li><a href="product.html" onclick="sessionStorage.setItem('selectedCategory','Videojuegos')">Videojuegos</a></li>
-										<li><a href="product.html" onclick="sessionStorage.setItem('selectedCategory','Comics')">Comics</a></li>
-										<li><a href="product.html" onclick="sessionStorage.setItem('selectedCategory','Posters')">Posters</a></li>
-										<li><a href="product.html" onclick="sessionStorage.setItem('selectedCategory','Ropa')">Ropa</a></li>
-										<li><a href="product.html" onclick="sessionStorage.setItem('selectedCategory','Juguetes')">Juguetes</a></li>
-									</ul>
-								</li>
+							<li>
+								<a id="user-link">User</a>
+							</li>
+		
+						</ul>
+					</nav>
+				</div>
 
-								<li>
-									<a href="product.html" class="colorletramenu">Shop</a>
-								</li>
+				<!-- Buscador -->
+				<div class="container containersearcher">
+					<div class="row fila">
+						<div class="col-lg-6">
+							<form class="form-horizontal my-2 my-md-0 search-form" [formGroup]="searchForm" role="form" (keyup.enter)="onSubmit()">
+                                 <div class=" input-group">
+								    <input id="searcherInput" type="text" class="form-control" formControlName="searchText" id="searchertext" placeholder="Search..." size="20">
+								    <div class="input-group-append">
+								      <button id="searcherButton" class="input-group-btn fa fa-search form-control-feedback" type="button"></button>  
+								    </div>
+								  </div>
 
-								<li>
-									<a href="about.html">About</a>
-								</li>
-
-								<li>
-									<a id="user-link">User</a>
-								</li>
-
-							</ul>
-						</nav>
-					</div>
-
-					<!-- Buscador -->
-					<div class="container containersearcher">
-						<div class="row fila">
-							<div class="col-lg-6">
-								<form class="form-horizontal my-2 my-md-0 search-form" [formGroup]="searchForm" role="form" (keyup.enter)="onSubmit()">
-									<div class=" input-group">
-										<input id="searcherInput" type="text" class="form-control" formControlName="searchText" id="searchertext"
-										 placeholder="Search..." size="20">
-										<div class="input-group-append">
-											<button id="searcherButton" class="input-group-btn fa fa-search form-control-feedback" type="button"></button>
-										</div>
-									</div>
-
-								</form>
-							</div>
+							</form>
 						</div>
 					</div>
 				</div>
+		</div>
 
 				<!-- Header Icon -->
 				<div class="header-icons">
@@ -420,10 +418,10 @@
 					<div class="item-slick2 p-l-15 p-r-15">
 						<div class="block2 m-b-20 m-t-10 shadow-car">
 							<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
-								<img src="images/Fotos_Productos/Ropa/CamisetaMujerStarWars/frontal.jpg" alt="IMG-PRODUCT">
+								<img src="images/Fotos_productos/Ropa/CamisetaMujerStarWars/frontal.jpg" alt="IMG-PRODUCT">
 								<div class="block2-overlay trans-0-4">
 									<div class="block2-btn-addcart w-size1 trans-0-4">
-										<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" onclick="addToCart(2,1,'images/Fotos_Productos/Ropa/CamisetaMujerStarWars/frontal.jpg','Camiseta_Star_Wars_Stormtrooper_Pintura-Mujer-Negro',11.997)">
+										<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" onclick="addToCart(2,1,'images/Fotos_productos/Ropa/CamisetaMujerStarWars/frontal.jpg','Camiseta_Star_Wars_Stormtrooper_Pintura-Mujer-Negro',11.997)">
 											Add to Cart
 										</button>
 									</div>
@@ -439,10 +437,10 @@
 					<div class="item-slick2 p-l-15 p-r-15">
 						<div class="block2 m-b-20 m-t-10 shadow-car">
 							<div class="block2-img wrap-pic-w of-hidden pos-relative">
-								<img src="images/Fotos_Productos/Figuras/negan-the-walking-dead-funko-pop-vinyl.jpg" alt="IMG-PRODUCT">
+								<img src="images/Fotos_productos/Figuras/negan-the-walking-dead-funko-pop-vinyl.jpg" alt="IMG-PRODUCT">
 								<div class="block2-overlay trans-0-4">
 									<div class="block2-btn-addcart w-size1 trans-0-4">
-										<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" onclick="addToCart(12,1,'images/Fotos_Productos/Figuras/negan-the-walking-dead-funko-pop-vinyl.jpg','Negan The Walking Dead',12.99)">
+										<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" onclick="addToCart(12,1,'images/Fotos_productos/Figuras/negan-the-walking-dead-funko-pop-vinyl.jpg','Negan The Walking Dead',12.99)">
 											Add to Cart
 										</button>
 									</div>
@@ -458,10 +456,10 @@
 					<div class="item-slick2 p-l-15 p-r-15">
 						<div class="block2 m-b-20 m-t-10 shadow-car">
 							<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
-								<img src="images/Fotos_Productos/Ropa/CamisetaMario/frontal.jpg" alt="IMG-PRODUCT">
+								<img src="images/Fotos_productos/Ropa/CamisetaMario/frontal.jpg" alt="IMG-PRODUCT">
 								<div class="block2-overlay trans-0-4">
 									<div class="block2-btn-addcart w-size1 trans-0-4">
-										<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" onclick="addToCart(0,1,'images/Fotos_Productos/Ropa/CamisetaMario/frontal.jpg','Nintendo_Mario_Items_Logo_Kids_T-Shirt-Red',17.995)">
+										<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" onclick="addToCart(0,1,'images/Fotos_productos/Ropa/CamisetaMario/frontal.jpg','Nintendo_Mario_Items_Logo_Kids_T-Shirt-Red',17.995)">
 											Add to Cart
 										</button>
 									</div>
@@ -477,10 +475,10 @@
 					<div class="item-slick2 p-l-15 p-r-15">
 						<div class="block2 m-b-20 m-t-10 shadow-car">
 							<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
-								<img src="images/Fotos_Productos/Juguetes/peluchepikachu.jpg" alt="IMG-PRODUCT">
+								<img src="images/Fotos_productos/Juguetes/peluchepikachu.jpg" alt="IMG-PRODUCT">
 								<div class="block2-overlay trans-0-4">
 									<div class="block2-btn-addcart w-size1 trans-0-4">
-										<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" onclick="addToCart(72,1,'images/Fotos_Productos/Juguetes/peluchepikachu.jpg','Peluche Pikachu Pokemon',32.648)">
+										<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" onclick="addToCart(72,1,'images/Fotos_productos/Juguetes/peluchepikachu.jpg','Peluche Pikachu Pokemon',32.648)">
 											Add to Cart
 										</button>
 									</div>
@@ -496,10 +494,10 @@
 					<div class="item-slick2 p-l-15 p-r-15">
 						<div class="block2 m-b-20 m-t-10 shadow-car">
 							<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
-								<img src="images/Fotos_Productos/Posters/joker.jpg" alt="IMG-PRODUCT">
+								<img src="images/Fotos_productos/Posters/joker.jpg" alt="IMG-PRODUCT">
 								<div class="block2-overlay trans-0-4">
 									<div class="block2-btn-addcart w-size1 trans-0-4">
-										<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" onclick="addToCart(47,1,'images/Fotos_Productos/Posters/joker.jpg','Poster del Joker',12.654)">
+										<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" onclick="addToCart(47,1,'images/Fotos_productos/Posters/joker.jpg','Poster del Joker',12.654)">
 											Add to Cart
 										</button>
 									</div>
@@ -515,10 +513,10 @@
 					<div class="item-slick2 p-l-15 p-r-15">
 						<div class="block2 m-b-20 m-t-10 shadow-car">
 							<div class="block2-img wrap-pic-w of-hidden pos-relative">
-								<img src="images/Fotos_Productos/Comics/thelastmarvelteam-upspidermanandxmen.jpg" alt="IMG-PRODUCT">
+								<img src="images/Fotos_productos/Comics/thelastmarvelteam-upspidermanandxmen.jpg" alt="IMG-PRODUCT">
 								<div class="block2-overlay trans-0-4">
 									<div class="block2-btn-addcart w-size1 trans-0-4">
-										<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" onclick="addToCart(40,1,'images/Fotos_Productos/Comics/thelastmarvelteam-upspidermanandxmen.jpg','Spiderman y X-men',17.40)">
+										<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" onclick="addToCart(40,1,'images/Fotos_productos/Comics/thelastmarvelteam-upspidermanandxmen.jpg','Spiderman y X-men',17.40)">
 											Add to Cart
 										</button>
 									</div>
@@ -534,10 +532,10 @@
 					<div class="item-slick2 p-l-15 p-r-15">
 						<div class="block2 m-b-20 m-t-10 shadow-car">
 							<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
-								<img src="images/Fotos_Productos/Ropa/SudaderaHarryPotter/frontal.jpg" alt="IMG-PRODUCT">
+								<img src="images/Fotos_productos/Ropa/SudaderaHarryPotter/frontal.jpg" alt="IMG-PRODUCT">
 								<div class="block2-overlay trans-0-4">
 									<div class="block2-btn-addcart w-size1 trans-0-4">
-										<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" onclick="addToCart(1,1,'images/Fotos_Productos/Ropa/SudaderaHarryPotter/frontal.jpg','Sudadera_Harry_Potter_Escudo_Hogwarts-Hombre-Negro',21.9956)">
+										<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" onclick="addToCart(1,1,'images/Fotos_productos/Ropa/SudaderaHarryPotter/frontal.jpg','Sudadera_Harry_Potter_Escudo_Hogwarts-Hombre-Negro',21.9956)">
 											Add to Cart
 										</button>
 									</div>
@@ -553,10 +551,10 @@
 					<div class="item-slick2 p-l-15 p-r-15">
 						<div class="block2 m-b-20 m-t-10 shadow-car">
 							<div class="block2-img wrap-pic-w of-hidden pos-relative">
-								<img src="images/Fotos_Productos/Videojuegos/zeldawii.jpg" alt="IMG-PRODUCT">
+								<img src="images/Fotos_productos/Videojuegos/zeldawii.jpg" alt="IMG-PRODUCT">
 								<div class="block2-overlay trans-0-4">
 									<div class="block2-btn-addcart w-size1 trans-0-4">
-										<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" onclick="addToCart(26,1,'images/Fotos_Productos/Videojuegos/zeldawii.jpg','Zelda para Wii',28.742)">
+										<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" onclick="addToCart(26,1,'images/Fotos_productos/Videojuegos/zeldawii.jpg','Zelda para Wii',28.742)">
 											Add to Cart
 										</button>
 									</div>
@@ -567,7 +565,7 @@
 									para wii</a><span class="block2-price m-text6 p-r-5">28.74&euro;
 								</span>
 							</div>
-						</div>∫
+						</div>
 					</div>
 				</div>
 			</div>
