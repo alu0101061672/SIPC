@@ -1,27 +1,3 @@
-.bgred{
-	background: red;
-}
-
-.azulflojo {
-	background: #00CED1;
-}
-
-.altofondo {
-	/*height: 600px;*/
-	position: relative;
-}
-.fondodelante{
-	height: 400px;
-    width:78%;
-    background-color: blue;    
-    position:absolute;
-}
-.altofilafondo{
-	height: 400px;
-}
-
-/*======================================================================*/
-
 .fondo1 {
 	height: 700px;
 	position: relative;
